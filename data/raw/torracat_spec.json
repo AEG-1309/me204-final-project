@@ -1,3418 +1,992 @@
 {
-    "abilities": [
-        {
-            "ability": {
-                "name": "blaze",
-                "url": "https://pokeapi.co/api/v2/ability/66/"
-            },
-            "is_hidden": false,
-            "slot": 1
-        },
-        {
-            "ability": {
-                "name": "intimidate",
-                "url": "https://pokeapi.co/api/v2/ability/22/"
-            },
-            "is_hidden": true,
-            "slot": 3
-        }
-    ],
-    "base_experience": 147,
-    "cries": {
-        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/726.ogg",
-        "legacy": null
+    "base_happiness": 70,
+    "capture_rate": 45,
+    "color": {
+        "name": "red",
+        "url": "https://pokeapi.co/api/v2/pokemon-color/8/"
     },
-    "forms": [
+    "egg_groups": [
         {
-            "name": "torracat",
-            "url": "https://pokeapi.co/api/v2/pokemon-form/726/"
+            "name": "ground",
+            "url": "https://pokeapi.co/api/v2/egg-group/5/"
         }
     ],
-    "game_indices": [
+    "evolution_chain": {
+        "url": "https://pokeapi.co/api/v2/evolution-chain/375/"
+    },
+    "evolves_from_species": {
+        "name": "litten",
+        "url": "https://pokeapi.co/api/v2/pokemon-species/725/"
+    },
+    "flavor_text_entries": [
         {
-            "game_index": 726,
+            "flavor_text": "\u304f\u3073\u306e\u3000\u3064\u3051\u306d\u306b\u3000\u307b\u306e\u304a\u306e\u3000\u30b9\u30ba\u304c\n\u3042\u308b\u3002\u3000\u307b\u306e\u304a\u304c\u3000\u3075\u304d\u3060\u3059\u3068\u304d\n\u30ea\u30f3\u30ea\u30f3\u3068\u3000\u305f\u304b\u3044\u304a\u3068\u304c\u3000\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "sun",
                 "url": "https://pokeapi.co/api/v2/version/27/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\ubaa9 \uc8fc\ubcc0\uc5d0 \ubd88\uaf43\uc758 \ubc29\uc6b8\uc774 \uc788\ub2e4.\n\ubd88\uaf43\uc744 \ubfdc\uc5b4\ub0bc \ub54c\n\ub538\ub791\ub538\ub791 \ub192\uc740 \uc18c\ub9ac\uac00 \ub09c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u8116\u5b50\u4e0a\u639b\u8457\u706b\u7130\u9234\u943a\u3002\n\u5674\u51fa\u706b\u7130\u7684\u6642\u5019\uff0c\n\u6703\u53ee\u9234\u9234\u5730\u767c\u51fa\u97ff\u4eae\u7684\u8072\u97f3\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Il porte \u00e0 son cou une cloche de feu. Lorsqu\u2019il\ncrache des flammes, cette derni\u00e8re se met\n\u00e0 tinter bruyamment.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Es tr\u00e4gt ein feuriges Gl\u00f6ckchen um den Hals.\nImmer, wenn es Flammen ausst\u00f6\u00dft, ert\u00f6nt ein\nhelles L\u00e4uten.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Luce al cuello un cascabel incandescente que\ntintinea con fuerza cuando desprende llamas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Quando si mette a sputare fuoco, il sonaglio\ninfuocato che tiene al collo emette un forte\ntintinnio.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "At its throat, it bears a bell of fire. The bell rings\nbrightly whenever this Pok\u00e9mon spits fire.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u9996\u306e\u3000\u4ed8\u3051\u6839\u306b\u3000\u708e\u306e\u3000\u9234\u304c\n\u3042\u308b\u3002\u3000\u708e\u304c\u3000\u5674\u304d\u3060\u3059\u3068\u304d\n\u30ea\u30f3\u30ea\u30f3\u3068\u3000\u9ad8\u3044\u97f3\u304c\u3000\u9cf4\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u8116\u5b50\u4e0a\u6302\u6709\u706b\u7130\u94c3\u94db\u3002\n\u55b7\u51fa\u706b\u7130\u7684\u65f6\u5019\uff0c\n\u4f1a\u53ee\u94c3\u94c3\u5730\u53d1\u51fa\u5f88\u54cd\u7684\u58f0\u97f3\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "Luce al cuello un cascabel incandescente que\ntintinea con fuerza cuando desprende llamas.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "sun",
+                "url": "https://pokeapi.co/api/v2/version/27/"
+            }
+        },
+        {
+            "flavor_text": "\u307e\u3048\u3042\u3057\u306e\u3000\u3061\u304b\u3089\u304c\u3000\u3058\u307e\u3093\u3002\n\u30d1\u30f3\u30c1\u306e\u3000\u3044\u3061\u3052\u304d\u3067\u3000\u3066\u3064\u306e\u307c\u3046\u3082\n\u3078\u3057\u307e\u3052\u3066\u3000\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "moon",
                 "url": "https://pokeapi.co/api/v2/version/28/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\uc55e\ubc1c\uc758 \ud798\uc774 \uc790\ub791\uac70\ub9ac\ub2e4.\n\ud380\uce58 \ud55c \ubc29\uc5d0 \ucca0\ubd09\ub3c4\n\uad6c\ubd80\ub7ec\ud2b8\ub824 \ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u524d\u8173\u7684\u529b\u91cf\u800c\u81ea\u8c6a\u3002\n\u53ea\u8981\u4e00\u62f3\u5c31\u80fd\u628a\u9435\u68d2\u90fd\u6253\u5f4e\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Il est tr\u00e8s fier de ses pattes avant muscl\u00e9es,\net ne se g\u00eane pas pour le montrer en tordant\ndes barres de fer d\u2019un seul coup de poing.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Dieses Pok\u00e9mon ist sehr stolz auf seine starken\nVorderbeine. Au\u00dferdem kann es mit nur einem\nSchlag eine Eisenstange verbiegen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Se enorgullece de la fuerza de sus patas\ndelanteras, con las que es capaz de doblar\nbarras de acero de un solo golpe.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Va molto fiero della potenza delle sue zampe\nanteriori, grazie alle quali \u00e8 capace di piegare\nuna spranga di ferro con un colpo solo.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "It boasts powerful front legs. With a single\npunch, it can bend an iron bar right over.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u524d\u8db3\u306e\u3000\u529b\u304c\u3000\u81ea\u6162\u3002\n\u30d1\u30f3\u30c1\u306e\u3000\u4e00\u6483\u3067\u3000\u9244\u306e\u68d2\u3082\n\u3078\u3057\u66f2\u3052\u3066\u3000\u3057\u307e\u3046\u306e\u3060\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u4ee5\u524d\u80a2\u7684\u529b\u91cf\u800c\u81ea\u8c6a\u3002\n\u4e00\u8bb0\u62f3\u51fb\uff0c\u8fde\u94c1\u68d2\u90fd\u80fd\u5f2f\u6298\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "Se enorgullece de la fuerza de sus patas\ndelanteras, con las que es capaz de doblar\nbarras de acero de un solo golpe.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "moon",
+                "url": "https://pokeapi.co/api/v2/version/28/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3064\u304f\u3068\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306b\u3082\u3000\u3042\u307e\u3048\u308b\u304c\n\u3061\u304b\u3089\u306f\u3000\u3064\u3088\u304f\u3000\u30c4\u30e1\u3082\u3000\u3059\u308b\u3069\u3044\u3002\n\u305c\u3093\u3057\u3093\u3000\u304d\u305a\u3060\u3089\u3051\u306b\u3000\u3055\u308c\u308b\u305e\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "ultra-sun",
                 "url": "https://pokeapi.co/api/v2/version/29/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\uce5c\ud574\uc9c0\uba74 \ud2b8\ub808\uc774\ub108\uc5d0\uac8c\ub3c4 \uc751\uc11d \ubd80\ub9ac\uc9c0\ub9cc,\n\ud798\uc740 \uac15\ud558\uace0 \ubc1c\ud1b1\ub3c4 \ub0a0\uce74\ub86d\ub2e4.\n\uc628\ubab8\uc744 \uc0c1\ucc98\ud22c\uc131\uc774\ub85c \ub9cc\ub4e0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u8b8a\u5f97\u89aa\u8fd1\u5f8c\u4e5f\u6703\u5c0d\u8a13\u7df4\u5bb6\u6492\u5b0c\u3002\n\u4f46\u56e0\u70ba\u529b\u6c23\u5f88\u5927\uff0c\u722a\u5b50\u53c8\u5f88\u92b3\u5229\uff0c\n\u8a13\u7df4\u5bb6\u6703\u88ab\u5f04\u5f97\u5168\u8eab\u662f\u50b7\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Il sait \u00eatre affectueux avec son Dresseur,\nmais il ne conna\u00eet pas sa force. C\u00e2linez-le,\net vous vous retrouverez couvert de griffures.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Zutrauliche Miezunder schmiegen sich sogar an\nihren Trainer an. Sie sind so stark, dass dieser\ndabei am ganzen K\u00f6rper Kratzwunden erleidet.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si le coge cari\u00f1o a su Entrenador se muestra\nafectuoso, pero es tan fuerte y sus garras tan\nafiladas que lo puede dejar lleno de ara\u00f1azos.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Quando si affeziona, il suo Allenatore deve stare\nattento ai suoi slanci: data la sua forza e i suoi\nartigli affilati, rischia di ritrovarsi pieno di graffi.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "It can act spoiled if it grows close to its Trainer.\nA powerful Pok\u00e9mon, its sharp claws can leave\nits Trainer\u2019s whole body covered in scratches.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u306a\u3064\u304f\u3068\u3000\u30c8\u30ec\u30fc\u30ca\u30fc\u306b\u3082\u3000\u7518\u3048\u308b\u304c\n\u529b\u306f\u3000\u5f37\u304f\u3000\u30c4\u30e1\u3082\u3000\u92ed\u3044\u3002\n\u5168\u8eab\u3000\u50b7\u3060\u3089\u3051\u306b\u3000\u3055\u308c\u308b\u305e\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u5982\u679c\u4eb2\u8fd1\u4e86\uff0c\u4e5f\u4f1a\u5bf9\u8bad\u7ec3\u5bb6\u6492\u5a07\uff0c\n\u4f46\u662f\u529b\u91cf\u5f88\u5f3a\uff0c\u722a\u5b50\u4e5f\u5f88\u950b\u5229\uff0c\n\u6240\u4ee5\u4f1a\u88ab\u5f04\u5f97\u5168\u8eab\u662f\u4f24\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "Si le coge cari\u00f1o a su Entrenador se muestra\nafectuoso, pero es tan fuerte y sus garras tan\nafiladas que lo puede dejar lleno de ara\u00f1azos.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "ultra-sun",
+                "url": "https://pokeapi.co/api/v2/version/29/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3066\u304c\u307f\u304c\u3000\u30d4\u30f3\u3068\u3000\u305f\u3063\u3066\u3044\u308b\u3068\u304d\u306f\n\u3061\u3087\u3046\u3057\u304c\u3088\u3044\u3000\u3057\u3087\u3046\u3053\u3002\u3000\u3050\u3042\u3044\u304c\n\u308f\u308b\u3044\u3068\u3000\u3051\u304c\u3046\u3057\u308d\u306b\u3000\u306d\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "ultra-moon",
                 "url": "https://pokeapi.co/api/v2/version/30/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\uac08\uae30\uac00 \ubc14\uc9dd \uc11c \uc788\uc73c\uba74\n\ucee8\ub514\uc158\uc774 \uc88b\ub2e4\ub294 \uc99d\uac70\ub2e4. \uc0c1\ud0dc\uac00\n\uc548 \uc88b\uc73c\uba74 \ud138\uc774 \ub4a4\ub85c \ub204\uc6cc \ubc84\ub9b0\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
             "version": {
-                "name": "lets-go-pikachu",
-                "url": "https://pokeapi.co/api/v2/version/31/"
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\u5982\u679c\u7260\u7684\u9b03\u6bdb\u76f4\u76f4\u8c4e\u7acb\uff0c\n\u4ee3\u8868\u7260\u7684\u72c0\u614b\u5f88\u597d\u3002\n\u72c0\u614b\u4e0d\u597d\u6642\uff0c\u6bdb\u6703\u5411\u5f8c\u5012\u4e0b\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
             "version": {
-                "name": "lets-go-eevee",
-                "url": "https://pokeapi.co/api/v2/version/32/"
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Quand la m\u00e8che sur sa t\u00eate est dress\u00e9e,\nc\u2019est qu\u2019il se porte bien. Dans le cas contraire,\nelle est plate et tombe vers l\u2019arri\u00e8re.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Hat es seine M\u00e4hne aufgestellt, bedeutet dies,\ndass es guter Dinge ist. Geht es ihm jedoch\nschlecht, h\u00e4ngt sie schlaff nach hinten herab.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Una crin alzada viene a significar que su estado\nf\u00edsico es bueno, mientras que una crin lacia\nhacia atr\u00e1s indica lo contrario.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Quando la sua criniera \u00e8 ritta, vuol dire che\n\u00e8 in buona salute. Se sta male, invece,\nla lascia cadere all\u2019indietro.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "When its mane is standing on end, you can tell\nit\u2019s feeling good. When it isn\u2019t feeling well, its fur\nwill lie down flat.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u305f\u3066\u304c\u307f\u304c\u3000\u30d4\u30f3\u3068\u3000\u7acb\u3063\u3066\u3044\u308b\u3068\u304d\u306f\n\u8abf\u5b50\u304c\u826f\u3044\u3000\u8a3c\u62e0\u3002\u3000\u5177\u5408\u304c\n\u60aa\u3044\u3068\u3000\u6bdb\u304c\u5f8c\u308d\u306b\u3000\u5bdd\u3066\u3057\u307e\u3046\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u9b03\u6bdb\u7ad6\u5f97\u76f4\u76f4\u7684\u65f6\u5019\uff0c\n\u8bc1\u660e\u5b83\u72b6\u6001\u826f\u597d\u3002\n\u72b6\u6001\u4e0d\u597d\u65f6\uff0c\u6bdb\u53d1\u4f1a\u5411\u540e\u5012\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "Una crin alzada viene a significar que su estado\nf\u00edsico es bueno, mientras que una crin lacia\nhacia atr\u00e1s indica lo contrario.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "ultra-moon",
+                "url": "https://pokeapi.co/api/v2/version/30/"
+            }
+        },
+        {
+            "flavor_text": "\u304f\u3073\u306e\u3000\u3064\u3051\u306d\u306e\u3000\u307b\u306e\u304a\u3076\u304f\u308d\u306f\n\u305f\u305f\u304b\u3044\u306b\u3000\u306a\u308b\u3068\u3000\u304b\u308a\u3087\u304f\u304c\n\u3042\u304c\u308a\u3000\u3059\u305a\u306e\u3088\u3046\u306a\u3000\u304a\u3068\u3092\u3000\u3060\u3059\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "sword",
                 "url": "https://pokeapi.co/api/v2/version/33/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\ubaa9\ub35c\ubbf8\uc5d0 \uc788\ub294 \ubd88\uaf43 \uc8fc\uba38\ub2c8\ub294\n\uc2f8\uc6c0\uc5d0 \ub4e4\uc5b4\uac00\uba74 \ud654\ub825\uc774 \uc62c\ub77c\n\ubc29\uc6b8 \uc18c\ub9ac \uac19\uc740 \uc18c\ub9ac\ub97c \ub0b8\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u8116\u5b50\u6839\u90e8\u7684\u706b\u56ca\u5728\u9032\u5165\u6230\u9b25\n\u72c0\u614b\u5f8c\u706b\u529b\u5c31\u6703\u4e0a\u5347\uff0c\n\u4e26\u767c\u51fa\u50cf\u9234\u943a\u822c\u7684\u8072\u97f3\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La poche \u00e0 feu situ\u00e9e \u00e0 la base de son cou\ngagne en temp\u00e9rature pendant les combats\net \u00e9met un bruit semblable \u00e0 un grelot.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Die Flammendr\u00fcse an seinem Hals heizt sich im\nKampf immer weiter auf und erzeugt so T\u00f6ne,\ndie denen eines Gl\u00f6ckchens gleichen.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La saca de fuego que luce al cuello arde con\nmayor intensidad durante el combate y emite\nun tintineo que recuerda al de un cascabel.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "Durante la lotta, la sacca alla base del collo\naumenta la produzione di energia termica ed\nemette un tintinnio simile a un sonaglio.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "In the midst of battle, the fire pouch on\nTorracat\u2019s neck rings like a bell and produces\nstronger flames than usual.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u9996\u306e\u3000\u4ed8\u3051\u6839\u306e\u3000\u708e\u888b\u306f\n\u6226\u3044\u306b\u3000\u306a\u308b\u3068\u3000\u706b\u529b\u304c\n\u4e0a\u304c\u308a\u3000\u9234\u306e\u3088\u3046\u306a\u3000\u97f3\u3092\u3000\u51fa\u3059\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u8116\u5b50\u6839\u90e8\u7684\u706b\u56ca\u5728\u8fdb\u5165\u6218\u6597\n\u72b6\u6001\u540e\u706b\u529b\u5c31\u4f1a\u4e0a\u5347\uff0c\n\u5e76\u53d1\u51fa\u94c3\u94db\u822c\u7684\u58f0\u97f3\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "La saca de fuego que luce al cuello arde con\nmayor intensidad durante el combate y emite\nun tintineo que recuerda al de un cascabel.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "sword",
+                "url": "https://pokeapi.co/api/v2/version/33/"
+            }
+        },
+        {
+            "flavor_text": "\u304d\u3087\u3046\u3066\u304d\u3092\u3000\u3042\u3044\u3066\u306b\u3059\u308b\u3068\n\u305b\u3093\u3068\u3046\u3044\u3088\u304f\u306e\u3000\u305f\u304b\u307e\u308a\u3068\u3000\u3068\u3082\u306b\n\u307b\u306e\u304a\u306e\u3059\u305a\u306e\u3000\u304b\u308a\u3087\u304f\u3082\u3000\u3042\u304c\u308b\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "shield",
                 "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\uac15\uc801\uc744 \uc0c1\ub300\ud558\uac8c \ub418\uba74\n\uc804\ud22c \uc758\uc695\uc774 \ub192\uc544\uc9c0\uace0 \ub3d9\uc2dc\uc5d0\n\ubd88\uaf43 \ubc29\uc6b8\uc758 \ud654\ub825\ub3c4 \uc62c\ub77c\uac04\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
             "version": {
-                "name": "the-isle-of-armor-sword",
-                "url": "https://pokeapi.co/api/v2/version/35/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\u5982\u679c\u6575\u4eba\u5be6\u529b\u5f37\u52c1\uff0c\n\u7260\u4fbf\u6703\u66f4\u6709\u6230\u9b25\u7684\u6b32\u671b\uff0c\n\u706b\u7130\u9234\u943a\u7684\u706b\u529b\u4e5f\u6703\u96a8\u4e4b\u4e0a\u5347\u3002",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            },
             "version": {
-                "name": "the-crown-tundra-sword",
-                "url": "https://pokeapi.co/api/v2/version/36/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Quand il fait face \u00e0 un adversaire redoutable,\nil redouble de combativit\u00e9 et la puissance\ncalorif\u00e8re de sa clochette augmente.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
             "version": {
-                "name": "brilliant-diamond",
-                "url": "https://pokeapi.co/api/v2/version/37/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Wenn es sich einem starken Gegner stellt, steigt\nnicht nur sein Kampfeswille, sondern auch die\nHeizkraft seines feurigen Gl\u00f6ckchens.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
             "version": {
-                "name": "shining-pearl",
-                "url": "https://pokeapi.co/api/v2/version/38/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Enfrentarse a un adversario formidable aviva\ntanto su esp\u00edritu combativo como la energ\u00eda\nt\u00e9rmica de su cascabel.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
             "version": {
-                "name": "legends-arceus",
-                "url": "https://pokeapi.co/api/v2/version/39/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Quando affronta un nemico molto forte\nil suo spirito combattivo e l\u2019energia termica\nprodotta dal sonaglio infuocato aumentano.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
             "version": {
-                "name": "scarlet",
-                "url": "https://pokeapi.co/api/v2/version/40/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "When facing a powerful enemy, Torracat\u2019s\nfighting spirit gets pumped up, and its fire bell\nblazes hotter.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
             "version": {
-                "name": "violet",
-                "url": "https://pokeapi.co/api/v2/version/41/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\u5f37\u6575\u3092\u3000\u76f8\u624b\u306b\u3059\u308b\u3068\n\u6226\u95d8\u610f\u6b32\u306e\u3000\u9ad8\u307e\u308a\u3068\u3000\u3068\u3082\u306b\n\u708e\u306e\u9234\u306e\u3000\u706b\u529b\u3082\u3000\u4e0a\u304c\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
             "version": {
-                "name": "the-teal-mask-scarlet",
-                "url": "https://pokeapi.co/api/v2/version/42/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "\u5982\u679c\u654c\u4eba\u5b9e\u529b\u5f3a\u52b2\uff0c\n\u5b83\u4fbf\u4f1a\u66f4\u6709\u6218\u6597\u7684\u6b32\u671b\uff0c\n\u706b\u7130\u94c3\u94db\u7684\u706b\u529b\u4e5f\u4f1a\u968f\u4e4b\u4e0a\u5347\u3002",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
             "version": {
-                "name": "the-indigo-disk-scarlet",
-                "url": "https://pokeapi.co/api/v2/version/43/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         },
         {
-            "game_index": 726,
+            "flavor_text": "Enfrentarse a un adversario formidable aviva\ntanto su esp\u00edritu combativo como la energ\u00eda\nt\u00e9rmica de su cascabel.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
             "version": {
-                "name": "legends-za",
-                "url": "https://pokeapi.co/api/v2/version/47/"
-            }
-        },
-        {
-            "game_index": 726,
-            "version": {
-                "name": "mega-dimension",
-                "url": "https://pokeapi.co/api/v2/version/48/"
+                "name": "shield",
+                "url": "https://pokeapi.co/api/v2/version/34/"
             }
         }
     ],
-    "height": 7,
-    "held_items": [],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 1,
+    "genera": [
+        {
+            "genus": "\u3072\u306d\u3053\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\ubd88\uace0\uc591\uc774\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u706b\u8c93\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Chat Feu",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Feuerkatzen-Pok\u00e9mon",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gato Fuego",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Pirofelino",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "Fire Cat Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u3072\u306d\u3053\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u706b\u732b\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Gato Fuego",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-vii",
+        "url": "https://pokeapi.co/api/v2/generation/7/"
+    },
+    "growth_rate": {
+        "name": "medium-slow",
+        "url": "https://pokeapi.co/api/v2/growth-rate/4/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 15,
     "id": 726,
-    "is_default": true,
-    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/726/encounters",
-    "moves": [
-        {
-            "move": {
-                "name": "pay-day",
-                "url": "https://pokeapi.co/api/v2/move/6/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "scratch",
-                "url": "https://pokeapi.co/api/v2/move/10/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "swords-dance",
-                "url": "https://pokeapi.co/api/v2/move/14/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "double-kick",
-                "url": "https://pokeapi.co/api/v2/move/24/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 16,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 20,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 20,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "body-slam",
-                "url": "https://pokeapi.co/api/v2/move/34/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "take-down",
-                "url": "https://pokeapi.co/api/v2/move/36/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "thrash",
-                "url": "https://pokeapi.co/api/v2/move/37/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 37,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 37,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 45,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 45,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "double-edge",
-                "url": "https://pokeapi.co/api/v2/move/38/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "leer",
-                "url": "https://pokeapi.co/api/v2/move/43/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 11,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 11,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "bite",
-                "url": "https://pokeapi.co/api/v2/move/44/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 24,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 24,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 15,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 15,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "growl",
-                "url": "https://pokeapi.co/api/v2/move/45/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 4,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 4,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "roar",
-                "url": "https://pokeapi.co/api/v2/move/46/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 19,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 19,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 9,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 9,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "ember",
-                "url": "https://pokeapi.co/api/v2/move/52/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "flamethrower",
-                "url": "https://pokeapi.co/api/v2/move/53/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 42,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 42,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 40,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 40,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fire-spin",
-                "url": "https://pokeapi.co/api/v2/move/83/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "toxic",
-                "url": "https://pokeapi.co/api/v2/move/92/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "double-team",
-                "url": "https://pokeapi.co/api/v2/move/104/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "lick",
-                "url": "https://pokeapi.co/api/v2/move/122/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 8,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 8,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fire-blast",
-                "url": "https://pokeapi.co/api/v2/move/126/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "leech-life",
-                "url": "https://pokeapi.co/api/v2/move/141/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fury-swipes",
-                "url": "https://pokeapi.co/api/v2/move/154/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 33,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 33,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 12,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 12,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "rest",
-                "url": "https://pokeapi.co/api/v2/move/156/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "substitute",
-                "url": "https://pokeapi.co/api/v2/move/164/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "snore",
-                "url": "https://pokeapi.co/api/v2/move/173/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "protect",
-                "url": "https://pokeapi.co/api/v2/move/182/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "scary-face",
-                "url": "https://pokeapi.co/api/v2/move/184/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 46,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 46,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 30,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 30,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "outrage",
-                "url": "https://pokeapi.co/api/v2/move/200/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 55,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 55,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "endure",
-                "url": "https://pokeapi.co/api/v2/move/203/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "swagger",
-                "url": "https://pokeapi.co/api/v2/move/207/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 28,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 28,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 35,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 35,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "attract",
-                "url": "https://pokeapi.co/api/v2/move/213/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "sleep-talk",
-                "url": "https://pokeapi.co/api/v2/move/214/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "return",
-                "url": "https://pokeapi.co/api/v2/move/216/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "frustration",
-                "url": "https://pokeapi.co/api/v2/move/218/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "hidden-power",
-                "url": "https://pokeapi.co/api/v2/move/237/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "sunny-day",
-                "url": "https://pokeapi.co/api/v2/move/241/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "crunch",
-                "url": "https://pokeapi.co/api/v2/move/242/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fake-out",
-                "url": "https://pokeapi.co/api/v2/move/252/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/2/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "heat-wave",
-                "url": "https://pokeapi.co/api/v2/move/257/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "torment",
-                "url": "https://pokeapi.co/api/v2/move/259/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "will-o-wisp",
-                "url": "https://pokeapi.co/api/v2/move/261/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "facade",
-                "url": "https://pokeapi.co/api/v2/move/263/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "taunt",
-                "url": "https://pokeapi.co/api/v2/move/269/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "helping-hand",
-                "url": "https://pokeapi.co/api/v2/move/270/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "revenge",
-                "url": "https://pokeapi.co/api/v2/move/279/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "endeavor",
-                "url": "https://pokeapi.co/api/v2/move/283/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "overheat",
-                "url": "https://pokeapi.co/api/v2/move/315/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "bulk-up",
-                "url": "https://pokeapi.co/api/v2/move/339/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "covet",
-                "url": "https://pokeapi.co/api/v2/move/343/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "u-turn",
-                "url": "https://pokeapi.co/api/v2/move/369/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "flare-blitz",
-                "url": "https://pokeapi.co/api/v2/move/394/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 51,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 51,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 50,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 50,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "nasty-plot",
-                "url": "https://pokeapi.co/api/v2/move/417/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "shadow-claw",
-                "url": "https://pokeapi.co/api/v2/move/421/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fire-fang",
-                "url": "https://pokeapi.co/api/v2/move/424/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 15,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 14,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 25,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 25,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "flame-charge",
-                "url": "https://pokeapi.co/api/v2/move/488/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "round",
-                "url": "https://pokeapi.co/api/v2/move/496/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "acrobatics",
-                "url": "https://pokeapi.co/api/v2/move/512/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "fire-pledge",
-                "url": "https://pokeapi.co/api/v2/move/519/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "work-up",
-                "url": "https://pokeapi.co/api/v2/move/526/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sword-shield",
-                        "url": "https://pokeapi.co/api/v2/version-group/20/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "dual-chop",
-                "url": "https://pokeapi.co/api/v2/move/530/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "parting-shot",
-                "url": "https://pokeapi.co/api/v2/move/575/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/2/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "confide",
-                "url": "https://pokeapi.co/api/v2/move/590/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "power-trip",
-                "url": "https://pokeapi.co/api/v2/move/681/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "egg",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/2/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "tera-blast",
-                "url": "https://pokeapi.co/api/v2/move/851/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "trailblaze",
-                "url": "https://pokeapi.co/api/v2/move/885/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "temper-flare",
-                "url": "https://pokeapi.co/api/v2/move/915/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        }
-    ],
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
     "name": "torracat",
-    "order": 872,
-    "past_abilities": [],
-    "past_stats": [],
-    "past_types": [],
-    "species": {
-        "name": "torracat",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/726/"
-    },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/726.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/726.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/726.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/726.png",
-        "front_shiny_female": null,
-        "other": {
-            "dream_world": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/726.svg",
-                "front_female": null
+    "names": [
+        {
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
             },
-            "home": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/726.png",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/726.png",
-                "front_shiny_female": null
-            },
-            "official-artwork": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png",
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/726.png"
-            },
-            "showdown": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/726.gif",
-                "back_female": null,
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/726.gif",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/726.gif",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/726.gif",
-                "front_shiny_female": null
-            }
+            "name": "\u30cb\u30e3\u30d2\u30fc\u30c8"
         },
-        "versions": {
-            "generation-i": {
-                "red-blue": {
-                    "back_default": null,
-                    "back_gray": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_gray": null,
-                    "front_transparent": null
-                },
-                "yellow": {
-                    "back_default": null,
-                    "back_gray": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_gray": null,
-                    "front_transparent": null
-                }
+        {
+            "language": {
+                "name": "ja-roma",
+                "url": "https://pokeapi.co/api/v2/language/2/"
             },
-            "generation-ii": {
-                "crystal": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "back_shiny_transparent": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_shiny_transparent": null,
-                    "front_transparent": null
-                },
-                "gold": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_transparent": null
-                },
-                "silver": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_transparent": null
-                }
+            "name": "Nyaheat"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
             },
-            "generation-iii": {
-                "emerald": {
-                    "front_default": null,
-                    "front_shiny": null
-                },
-                "firered-leafgreen": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null
-                },
-                "ruby-sapphire": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null
-                }
+            "name": "\ub0d0\uc624\ud788\ud2b8"
+        },
+        {
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
             },
-            "generation-iv": {
-                "diamond-pearl": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                },
-                "heartgold-soulsilver": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                },
-                "platinum": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                }
+            "name": "\u708e\u71b1\u55b5"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
             },
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/726.png",
-                    "front_female": null
-                }
+            "name": "Matoufeu"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
             },
-            "generation-v": {
-                "black-white": {
-                    "animated": {
-                        "back_default": null,
-                        "back_female": null,
-                        "back_shiny": null,
-                        "back_shiny_female": null,
-                        "front_default": null,
-                        "front_female": null,
-                        "front_shiny": null,
-                        "front_shiny_female": null
-                    },
-                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/726.png",
-                    "back_female": null,
-                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/726.png",
-                    "back_shiny_female": null,
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/726.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/726.png",
-                    "front_shiny_female": null
-                }
+            "name": "Miezunder"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
             },
-            "generation-vi": {
-                "omegaruby-alphasapphire": {
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                },
-                "x-y": {
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                }
+            "name": "Torracat"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
             },
-            "generation-vii": {
-                "icons": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/726.png",
-                    "front_female": null
-                },
-                "ultra-sun-ultra-moon": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/726.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/726.png",
-                    "front_shiny_female": null
-                }
+            "name": "Torracat"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
             },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                },
-                "icons": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/726.png",
-                    "front_female": null
-                }
-            }
+            "name": "Torracat"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "\u30cb\u30e3\u30d2\u30fc\u30c8"
+        },
+        {
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "\u708e\u70ed\u55b5"
+        },
+        {
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "name": "Torracat"
         }
-    },
-    "stats": [
+    ],
+    "order": 726,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
         {
-            "base_stat": 65,
-            "effort": 0,
-            "stat": {
-                "name": "hp",
-                "url": "https://pokeapi.co/api/v2/stat/1/"
+            "entry_number": 726,
+            "pokedex": {
+                "name": "national",
+                "url": "https://pokeapi.co/api/v2/pokedex/1/"
             }
         },
         {
-            "base_stat": 85,
-            "effort": 0,
-            "stat": {
-                "name": "attack",
-                "url": "https://pokeapi.co/api/v2/stat/2/"
+            "entry_number": 5,
+            "pokedex": {
+                "name": "original-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/16/"
             }
         },
         {
-            "base_stat": 50,
-            "effort": 0,
-            "stat": {
-                "name": "defense",
-                "url": "https://pokeapi.co/api/v2/stat/3/"
+            "entry_number": 5,
+            "pokedex": {
+                "name": "original-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/17/"
             }
         },
         {
-            "base_stat": 80,
-            "effort": 0,
-            "stat": {
-                "name": "special-attack",
-                "url": "https://pokeapi.co/api/v2/stat/4/"
+            "entry_number": 5,
+            "pokedex": {
+                "name": "updated-alola",
+                "url": "https://pokeapi.co/api/v2/pokedex/21/"
             }
         },
         {
-            "base_stat": 50,
-            "effort": 0,
-            "stat": {
-                "name": "special-defense",
-                "url": "https://pokeapi.co/api/v2/stat/5/"
+            "entry_number": 5,
+            "pokedex": {
+                "name": "updated-melemele",
+                "url": "https://pokeapi.co/api/v2/pokedex/22/"
             }
         },
         {
-            "base_stat": 90,
-            "effort": 2,
-            "stat": {
-                "name": "speed",
-                "url": "https://pokeapi.co/api/v2/stat/6/"
+            "entry_number": 222,
+            "pokedex": {
+                "name": "blueberry",
+                "url": "https://pokeapi.co/api/v2/pokedex/33/"
             }
         }
     ],
-    "types": [
+    "shape": {
+        "name": "quadruped",
+        "url": "https://pokeapi.co/api/v2/pokemon-shape/8/"
+    },
+    "varieties": [
         {
-            "slot": 1,
-            "type": {
-                "name": "fire",
-                "url": "https://pokeapi.co/api/v2/type/10/"
+            "is_default": true,
+            "pokemon": {
+                "name": "torracat",
+                "url": "https://pokeapi.co/api/v2/pokemon/726/"
             }
         }
-    ],
-    "weight": 250
+    ]
 }

@@ -1,1029 +1,732 @@
 {
-    "abilities": [
-        {
-            "ability": {
-                "name": "levitate",
-                "url": "https://pokeapi.co/api/v2/ability/26/"
-            },
-            "is_hidden": false,
-            "slot": 1
-        }
-    ],
-    "base_experience": 55,
-    "cries": {
-        "latest": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/latest/602.ogg",
-        "legacy": "https://raw.githubusercontent.com/PokeAPI/cries/main/cries/pokemon/legacy/602.ogg"
+    "base_happiness": 70,
+    "capture_rate": 190,
+    "color": {
+        "name": "white",
+        "url": "https://pokeapi.co/api/v2/pokemon-color/9/"
     },
-    "forms": [
+    "egg_groups": [
         {
-            "name": "tynamo",
-            "url": "https://pokeapi.co/api/v2/pokemon-form/602/"
+            "name": "indeterminate",
+            "url": "https://pokeapi.co/api/v2/egg-group/11/"
         }
     ],
-    "game_indices": [
+    "evolution_chain": {
+        "url": "https://pokeapi.co/api/v2/evolution-chain/306/"
+    },
+    "evolves_from_species": null,
+    "flavor_text_entries": [
         {
-            "game_index": 602,
+            "flavor_text": "Tout seuls, ils ne d\u00e9gagent pas beaucoup\nd\u2019\u00e9lectricit\u00e9, mais un banc d\u2019Anchwatt\nproduit la m\u00eame puissance qu\u2019un \u00e9clair.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
             "version": {
                 "name": "black",
                 "url": "https://pokeapi.co/api/v2/version/17/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "While one alone doesn\u2019t have much power,\na chain of many Tynamo can be as\npowerful as lightning.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "black",
+                "url": "https://pokeapi.co/api/v2/version/17/"
+            }
+        },
+        {
+            "flavor_text": "Ils agissent en groupes. Ils poss\u00e8dent\nun organe produisant de l\u2019\u00e9lectricit\u00e9 et\nlancent des d\u00e9charges en cas de danger.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
             "version": {
                 "name": "white",
                 "url": "https://pokeapi.co/api/v2/version/18/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "These Pok\u00e9mon move in schools. They\nhave an electricity-generating organ, so\nthey discharge electricity if in danger.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "white",
+                "url": "https://pokeapi.co/api/v2/version/18/"
+            }
+        },
+        {
+            "flavor_text": "One alone can emit only a trickle of\nelectricity, so a group of them gathers\nto unleash a powerful electric shock.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
             "version": {
                 "name": "black-2",
                 "url": "https://pokeapi.co/api/v2/version/21/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "One alone can emit only a trickle of\nelectricity, so a group of them gathers\nto unleash a powerful electric shock.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
             "version": {
                 "name": "white-2",
                 "url": "https://pokeapi.co/api/v2/version/22/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\uff11\u3074\u304d\u306e\u3000\u3067\u3093\u308a\u3087\u304f\u306f\u3000\u3061\u3044\u3055\u3044\u304c\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u304c\u3000\u3064\u306a\u304c\u308b\u3068\n\u30ab\u30df\u30ca\u30ea\u3068\u3000\u304a\u306a\u3058\u3000\u3044\u308a\u3087\u304f\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "x",
                 "url": "https://pokeapi.co/api/v2/version/23/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\ud55c \ub9c8\ub9ac\uc758 \uc804\ub825\uc740 \uc801\uc9c0\ub9cc\n\ub9ce\uc740 \uc800\ub9ac\uc5b4\uac00 \uc5f0\uacb0\ub418\uba74\n\ubc88\uac1c\uc640 \uac19\uc740 \uc704\ub825\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Tout seuls, ils ne d\u00e9gagent pas beaucoup\nd\u2019\u00e9lectricit\u00e9, mais un banc d\u2019Anchwatt produit la\nm\u00eame puissance qu\u2019un \u00e9clair.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "Allein erzeugt es nur wenig Strom, doch tritt es\ngeschlossen im Schwarm auf, gleicht seine Kraft\nder eines Blitzes.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La electricidad de uno solo es diminuta, pero, si\nmultitud de Tynamo se conectan, consiguen la\npotencia de un rayo.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La carica elettrica di un Tynamo \u00e8 debole, ma se\npi\u00f9 esemplari si uniscono raggiungono la potenza\ndi un fulmine.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "While one alone doesn\u2019t have much power, a chain\nof many Tynamo can be as powerful as lightning.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u5339\u306e\u3000\u96fb\u529b\u306f\u3000\u5c0f\u3055\u3044\u304c\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u304c\u3000\u3064\u306a\u304c\u308b\u3068\n\u96f7\u3068\u3000\u540c\u3058\u3000\u5a01\u529b\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "La electricidad de uno solo es diminuta, pero, si\nmultitud de Tynamo se conectan, consiguen la\npotencia de un rayo.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "x",
+                "url": "https://pokeapi.co/api/v2/version/23/"
+            }
+        },
+        {
+            "flavor_text": "\u3088\u308f\u3044\u3000\u3067\u3093\u304d\u3057\u304b\u3000\u3060\u305b\u306a\u3044\u306e\u3067\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u3067\u3000\u3042\u3064\u307e\u308a\n\u304d\u3087\u3046\u308a\u3087\u304f\u306a\u3000\u3067\u3093\u304d\u3092\u3000\u306f\u306a\u3064\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "y",
                 "url": "https://pokeapi.co/api/v2/version/24/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\uc57d\ud55c \uc804\uae30\ubc16\uc5d0 \ub0bc \uc218 \uc5c6\uc5b4\n\ub9ce\uc740 \uc800\ub9ac\uc5b4\uac00 \ubaa8\uc5ec\uc11c\n\uac15\ub825\ud55c \uc804\uae30\ub97c \ubc1c\uc0b0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Tout seul, il ne d\u00e9gage pas beaucoup d\u2019\u00e9lectricit\u00e9.\nMais un banc d\u2019Anchwatt produit des d\u00e9charges\nsurpuissantes.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Alleine erzeugen sie nur geringe Mengen an\nElektrizit\u00e4t, aber im Schwarm k\u00f6nnen sie\nm\u00e4chtige Stromsalven abfeuern.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Apenas puede generar energ\u00eda por s\u00ed mismo, pero un\nbanco de Tynamo puede crear violentas descargas\nel\u00e9ctricas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Da soli producono poca elettricit\u00e0, per cui formano\ndei grossi branchi se vogliono lanciare una scossa\npi\u00f9 potente.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "One alone can emit only a trickle of electricity,\nso a group of them gathers to unleash a powerful\nelectric shock.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\u5f31\u3044\u3000\u96fb\u6c17\u3057\u304b\u3000\u3060\u305b\u306a\u3044\u306e\u3067\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u3067\u3000\u96c6\u307e\u308a\n\u5f37\u529b\u306a\u3000\u96fb\u6c17\u3092\u3000\u653e\u3064\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "Apenas puede generar energ\u00eda por s\u00ed mismo, pero un\nbanco de Tynamo puede crear violentas descargas\nel\u00e9ctricas.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "y",
+                "url": "https://pokeapi.co/api/v2/version/24/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u3074\u304d\u306e\u3000\u3067\u3093\u308a\u3087\u304f\u306f\u3000\u3061\u3044\u3055\u3044\u304c\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u304c\u3000\u3064\u306a\u304c\u308b\u3068\n\u30ab\u30df\u30ca\u30ea\u3068\u3000\u304a\u306a\u3058\u3000\u3044\u308a\u3087\u304f\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "omega-ruby",
                 "url": "https://pokeapi.co/api/v2/version/25/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\ud55c \ub9c8\ub9ac\uc758 \uc804\ub825\uc740 \uc801\uc9c0\ub9cc\n\ub9ce\uc740 \uc800\ub9ac\uc5b4\uac00 \uc5f0\uacb0\ub418\uba74\n\ubc88\uac1c\uc640 \uac19\uc740 \uc704\ub825\uc774 \ub41c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Tout seuls, ils ne d\u00e9gagent pas beaucoup d\u2019\u00e9lectricit\u00e9,\nmais un banc d\u2019Anchwatt produit la m\u00eame puissance\nqu\u2019un \u00e9clair.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen\nim Schwarm auf, gleicht seine Kraft der eines Blitzes.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La electricidad de uno solo es diminuta, pero, si multitud de\nTynamo se conectan, consiguen la potencia de un rayo.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La carica elettrica di un Tynamo \u00e8 debole, ma se pi\u00f9 esemplari\nsi uniscono raggiungono la potenza di un fulmine.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "While one alone doesn\u2019t have much power, a chain\nof many Tynamo can be as powerful as lightning.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\uff11\u5339\u306e\u3000\u96fb\u529b\u306f\u3000\u5c0f\u3055\u3044\u304c\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u304c\u3000\u3064\u306a\u304c\u308b\u3068\n\u96f7\u3068\u3000\u540c\u3058\u3000\u5a01\u529b\u306b\u306a\u308b\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "La electricidad de uno solo es diminuta, pero, si multitud de\nTynamo se conectan, consiguen la potencia de un rayo.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "version": {
+                "name": "omega-ruby",
+                "url": "https://pokeapi.co/api/v2/version/25/"
+            }
+        },
+        {
+            "flavor_text": "\u3088\u308f\u3044\u3000\u3067\u3093\u304d\u3057\u304b\u3000\u3060\u305b\u306a\u3044\u306e\u3067\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u3067\u3000\u3042\u3064\u307e\u308a\n\u304d\u3087\u3046\u308a\u3087\u304f\u306a\u3000\u3067\u3093\u304d\u3092\u3000\u306f\u306a\u3064\u3002",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            },
             "version": {
                 "name": "alpha-sapphire",
                 "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\uc57d\ud55c \uc804\uae30\ubc16\uc5d0 \ub0bc \uc218 \uc5c6\uc5b4\n\ub9ce\uc740 \uc800\ub9ac\uc5b4\uac00 \ubaa8\uc5ec\uc11c\n\uac15\ub825\ud55c \uc804\uae30\ub97c \ubc1c\uc0b0\ud55c\ub2e4.",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            },
             "version": {
-                "name": "sun",
-                "url": "https://pokeapi.co/api/v2/version/27/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "Tout seul, il ne d\u00e9gage pas beaucoup d\u2019\u00e9lectricit\u00e9.\nMais un banc d\u2019Anchwatt produit des d\u00e9charges surpuissantes.",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            },
             "version": {
-                "name": "moon",
-                "url": "https://pokeapi.co/api/v2/version/28/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "Alleine erzeugen sie nur geringe Mengen an Elektrizit\u00e4t,\naber im Schwarm k\u00f6nnen sie m\u00e4chtige Stromsalven abfeuern.",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "Apenas puede generar energ\u00eda por s\u00ed mismo, pero un banco\nde Tynamo puede crear violentas descargas el\u00e9ctricas.",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "Da soli producono poca elettricit\u00e0, per cui formano dei grossi\nbranchi se vogliono lanciare una scossa pi\u00f9 potente.",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            },
             "version": {
-                "name": "lets-go-pikachu",
-                "url": "https://pokeapi.co/api/v2/version/31/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "One alone can emit only a trickle of electricity,\nso a group of them gathers to unleash a powerful\nelectric shock.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
             "version": {
-                "name": "lets-go-eevee",
-                "url": "https://pokeapi.co/api/v2/version/32/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "\u5f31\u3044\u3000\u96fb\u6c17\u3057\u304b\u3000\u3060\u305b\u306a\u3044\u306e\u3067\n\u305f\u304f\u3055\u3093\u306e\u3000\u30b7\u30d3\u30b7\u30e9\u30b9\u3067\u3000\u96c6\u307e\u308a\n\u5f37\u529b\u306a\u3000\u96fb\u6c17\u3092\u3000\u653e\u3064\u3002",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
             "version": {
-                "name": "scarlet",
-                "url": "https://pokeapi.co/api/v2/version/40/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         },
         {
-            "game_index": 602,
+            "flavor_text": "Apenas puede generar energ\u00eda por s\u00ed mismo, pero un banco\nde Tynamo puede crear violentas descargas el\u00e9ctricas.",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
             "version": {
-                "name": "violet",
-                "url": "https://pokeapi.co/api/v2/version/41/"
-            }
-        },
-        {
-            "game_index": 602,
-            "version": {
-                "name": "the-teal-mask-scarlet",
-                "url": "https://pokeapi.co/api/v2/version/42/"
-            }
-        },
-        {
-            "game_index": 602,
-            "version": {
-                "name": "the-indigo-disk-scarlet",
-                "url": "https://pokeapi.co/api/v2/version/43/"
-            }
-        },
-        {
-            "game_index": 602,
-            "version": {
-                "name": "legends-za",
-                "url": "https://pokeapi.co/api/v2/version/47/"
-            }
-        },
-        {
-            "game_index": 602,
-            "version": {
-                "name": "mega-dimension",
-                "url": "https://pokeapi.co/api/v2/version/48/"
+                "name": "alpha-sapphire",
+                "url": "https://pokeapi.co/api/v2/version/26/"
             }
         }
     ],
-    "height": 2,
-    "held_items": [],
+    "form_descriptions": [],
+    "forms_switchable": false,
+    "gender_rate": 4,
+    "genera": [
+        {
+            "genus": "\u3067\u3093\u304d\u3046\u304a\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
+            }
+        },
+        {
+            "genus": "\uc804\uae30\ubb3c\uace0\uae30\ud3ec\ucf13\ubaac",
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
+            }
+        },
+        {
+            "genus": "\u96fb\u9b5a\u5bf6\u53ef\u5922",
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon \u00c9lectrophore",
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
+            }
+        },
+        {
+            "genus": "Stromfisch",
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Electropez",
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Elettropesce",
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
+            }
+        },
+        {
+            "genus": "EleFish Pok\u00e9mon",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            }
+        },
+        {
+            "genus": "\u3067\u3093\u304d\u3046\u304a\u30dd\u30b1\u30e2\u30f3",
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            }
+        },
+        {
+            "genus": "\u7535\u9c7c\u5b9d\u53ef\u68a6",
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            }
+        },
+        {
+            "genus": "Pok\u00e9mon Electropez",
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            }
+        }
+    ],
+    "generation": {
+        "name": "generation-v",
+        "url": "https://pokeapi.co/api/v2/generation/5/"
+    },
+    "growth_rate": {
+        "name": "slow",
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/"
+    },
+    "habitat": null,
+    "has_gender_differences": false,
+    "hatch_counter": 20,
     "id": 602,
-    "is_default": true,
-    "location_area_encounters": "https://pokeapi.co/api/v2/pokemon/602/encounters",
-    "moves": [
-        {
-            "move": {
-                "name": "tackle",
-                "url": "https://pokeapi.co/api/v2/move/33/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "https://pokeapi.co/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "https://pokeapi.co/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 1,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "thunder-wave",
-                "url": "https://pokeapi.co/api/v2/move/86/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "https://pokeapi.co/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "https://pokeapi.co/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 2,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "spark",
-                "url": "https://pokeapi.co/api/v2/move/209/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "https://pokeapi.co/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "https://pokeapi.co/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 3,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "charge",
-                "url": "https://pokeapi.co/api/v2/move/268/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "knock-off",
-                "url": "https://pokeapi.co/api/v2/move/282/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "magnet-rise",
-                "url": "https://pokeapi.co/api/v2/move/393/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "https://pokeapi.co/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "tutor",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/3/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "charge-beam",
-                "url": "https://pokeapi.co/api/v2/move/451/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "black-white",
-                        "url": "https://pokeapi.co/api/v2/version-group/11/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "black-2-white-2",
-                        "url": "https://pokeapi.co/api/v2/version-group/14/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "x-y",
-                        "url": "https://pokeapi.co/api/v2/version-group/15/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "omega-ruby-alpha-sapphire",
-                        "url": "https://pokeapi.co/api/v2/version-group/16/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "sun-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/17/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "ultra-sun-ultra-moon",
-                        "url": "https://pokeapi.co/api/v2/version-group/18/"
-                    }
-                },
-                {
-                    "level_learned_at": 1,
-                    "move_learn_method": {
-                        "name": "level-up",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/1/"
-                    },
-                    "order": 4,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                },
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        },
-        {
-            "move": {
-                "name": "tera-blast",
-                "url": "https://pokeapi.co/api/v2/move/851/"
-            },
-            "version_group_details": [
-                {
-                    "level_learned_at": 0,
-                    "move_learn_method": {
-                        "name": "machine",
-                        "url": "https://pokeapi.co/api/v2/move-learn-method/4/"
-                    },
-                    "order": null,
-                    "version_group": {
-                        "name": "scarlet-violet",
-                        "url": "https://pokeapi.co/api/v2/version-group/25/"
-                    }
-                }
-            ]
-        }
-    ],
+    "is_baby": false,
+    "is_legendary": false,
+    "is_mythical": false,
     "name": "tynamo",
-    "order": 724,
-    "past_abilities": [],
-    "past_stats": [],
-    "past_types": [],
-    "species": {
-        "name": "tynamo",
-        "url": "https://pokeapi.co/api/v2/pokemon-species/602/"
-    },
-    "sprites": {
-        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/602.png",
-        "back_female": null,
-        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/shiny/602.png",
-        "back_shiny_female": null,
-        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
-        "front_female": null,
-        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/602.png",
-        "front_shiny_female": null,
-        "other": {
-            "dream_world": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/602.svg",
-                "front_female": null
+    "names": [
+        {
+            "language": {
+                "name": "ja-hrkt",
+                "url": "https://pokeapi.co/api/v2/language/1/"
             },
-            "home": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/602.png",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/shiny/602.png",
-                "front_shiny_female": null
-            },
-            "official-artwork": {
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/602.png"
-            },
-            "showdown": {
-                "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/602.gif",
-                "back_female": null,
-                "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/shiny/602.gif",
-                "back_shiny_female": null,
-                "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/602.gif",
-                "front_female": null,
-                "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/shiny/602.gif",
-                "front_shiny_female": null
-            }
+            "name": "\u30b7\u30d3\u30b7\u30e9\u30b9"
         },
-        "versions": {
-            "generation-i": {
-                "red-blue": {
-                    "back_default": null,
-                    "back_gray": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_gray": null,
-                    "front_transparent": null
-                },
-                "yellow": {
-                    "back_default": null,
-                    "back_gray": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_gray": null,
-                    "front_transparent": null
-                }
+        {
+            "language": {
+                "name": "ja-roma",
+                "url": "https://pokeapi.co/api/v2/language/2/"
             },
-            "generation-ii": {
-                "crystal": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "back_shiny_transparent": null,
-                    "back_transparent": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_shiny_transparent": null,
-                    "front_transparent": null
-                },
-                "gold": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_transparent": null
-                },
-                "silver": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null,
-                    "front_transparent": null
-                }
+            "name": "Shibishirasu"
+        },
+        {
+            "language": {
+                "name": "ko",
+                "url": "https://pokeapi.co/api/v2/language/3/"
             },
-            "generation-iii": {
-                "emerald": {
-                    "front_default": null,
-                    "front_shiny": null
-                },
-                "firered-leafgreen": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null
-                },
-                "ruby-sapphire": {
-                    "back_default": null,
-                    "back_shiny": null,
-                    "front_default": null,
-                    "front_shiny": null
-                }
+            "name": "\uc800\ub9ac\uc5b4"
+        },
+        {
+            "language": {
+                "name": "zh-hant",
+                "url": "https://pokeapi.co/api/v2/language/4/"
             },
-            "generation-iv": {
-                "diamond-pearl": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                },
-                "heartgold-soulsilver": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                },
-                "platinum": {
-                    "back_default": null,
-                    "back_female": null,
-                    "back_shiny": null,
-                    "back_shiny_female": null,
-                    "front_default": null,
-                    "front_female": null,
-                    "front_shiny": null,
-                    "front_shiny_female": null
-                }
+            "name": "\u9ebb\u9ebb\u5c0f\u9b5a"
+        },
+        {
+            "language": {
+                "name": "fr",
+                "url": "https://pokeapi.co/api/v2/language/5/"
             },
-            "generation-ix": {
-                "scarlet-violet": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-ix/scarlet-violet/602.png",
-                    "front_female": null
-                }
+            "name": "Anchwatt"
+        },
+        {
+            "language": {
+                "name": "de",
+                "url": "https://pokeapi.co/api/v2/language/6/"
             },
-            "generation-v": {
-                "black-white": {
-                    "animated": {
-                        "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/602.gif",
-                        "back_female": null,
-                        "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/602.gif",
-                        "back_shiny_female": null,
-                        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/602.gif",
-                        "front_female": null,
-                        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/602.gif",
-                        "front_shiny_female": null
-                    },
-                    "back_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/602.png",
-                    "back_female": null,
-                    "back_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/back/shiny/602.png",
-                    "back_shiny_female": null,
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/602.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/shiny/602.png",
-                    "front_shiny_female": null
-                }
+            "name": "Zapplardin"
+        },
+        {
+            "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
             },
-            "generation-vi": {
-                "omegaruby-alphasapphire": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/602.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/omegaruby-alphasapphire/shiny/602.png",
-                    "front_shiny_female": null
-                },
-                "x-y": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/602.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vi/x-y/shiny/602.png",
-                    "front_shiny_female": null
-                }
+            "name": "Tynamo"
+        },
+        {
+            "language": {
+                "name": "it",
+                "url": "https://pokeapi.co/api/v2/language/8/"
             },
-            "generation-vii": {
-                "icons": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/icons/602.png",
-                    "front_female": null
-                },
-                "ultra-sun-ultra-moon": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/602.png",
-                    "front_female": null,
-                    "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-vii/ultra-sun-ultra-moon/shiny/602.png",
-                    "front_shiny_female": null
-                }
+            "name": "Tynamo"
+        },
+        {
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
             },
-            "generation-viii": {
-                "brilliant-diamond-shining-pearl": {
-                    "front_default": null,
-                    "front_female": null
-                },
-                "icons": {
-                    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-viii/icons/602.png",
-                    "front_female": null
-                }
-            }
+            "name": "Tynamo"
+        },
+        {
+            "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+            },
+            "name": "\u30b7\u30d3\u30b7\u30e9\u30b9"
+        },
+        {
+            "language": {
+                "name": "zh-hans",
+                "url": "https://pokeapi.co/api/v2/language/12/"
+            },
+            "name": "\u9ebb\u9ebb\u5c0f\u9c7c"
+        },
+        {
+            "language": {
+                "name": "es-419",
+                "url": "https://pokeapi.co/api/v2/language/14/"
+            },
+            "name": "Tynamo"
         }
-    },
-    "stats": [
+    ],
+    "order": 603,
+    "pal_park_encounters": [],
+    "pokedex_numbers": [
         {
-            "base_stat": 35,
-            "effort": 0,
-            "stat": {
-                "name": "hp",
-                "url": "https://pokeapi.co/api/v2/stat/1/"
+            "entry_number": 602,
+            "pokedex": {
+                "name": "national",
+                "url": "https://pokeapi.co/api/v2/pokedex/1/"
             }
         },
         {
-            "base_stat": 55,
-            "effort": 0,
-            "stat": {
-                "name": "attack",
-                "url": "https://pokeapi.co/api/v2/stat/2/"
+            "entry_number": 108,
+            "pokedex": {
+                "name": "original-unova",
+                "url": "https://pokeapi.co/api/v2/pokedex/8/"
             }
         },
         {
-            "base_stat": 40,
-            "effort": 0,
-            "stat": {
-                "name": "defense",
-                "url": "https://pokeapi.co/api/v2/stat/3/"
+            "entry_number": 177,
+            "pokedex": {
+                "name": "updated-unova",
+                "url": "https://pokeapi.co/api/v2/pokedex/9/"
             }
         },
         {
-            "base_stat": 45,
-            "effort": 0,
-            "stat": {
-                "name": "special-attack",
-                "url": "https://pokeapi.co/api/v2/stat/4/"
+            "entry_number": 341,
+            "pokedex": {
+                "name": "paldea",
+                "url": "https://pokeapi.co/api/v2/pokedex/31/"
             }
         },
         {
-            "base_stat": 40,
-            "effort": 0,
-            "stat": {
-                "name": "special-defense",
-                "url": "https://pokeapi.co/api/v2/stat/5/"
+            "entry_number": 175,
+            "pokedex": {
+                "name": "kitakami",
+                "url": "https://pokeapi.co/api/v2/pokedex/32/"
             }
         },
         {
-            "base_stat": 60,
-            "effort": 1,
-            "stat": {
-                "name": "speed",
-                "url": "https://pokeapi.co/api/v2/stat/6/"
+            "entry_number": 134,
+            "pokedex": {
+                "name": "blueberry",
+                "url": "https://pokeapi.co/api/v2/pokedex/33/"
+            }
+        },
+        {
+            "entry_number": 142,
+            "pokedex": {
+                "name": "lumiose-city",
+                "url": "https://pokeapi.co/api/v2/pokedex/34/"
             }
         }
     ],
-    "types": [
+    "shape": {
+        "name": "fish",
+        "url": "https://pokeapi.co/api/v2/pokemon-shape/3/"
+    },
+    "varieties": [
         {
-            "slot": 1,
-            "type": {
-                "name": "electric",
-                "url": "https://pokeapi.co/api/v2/type/13/"
+            "is_default": true,
+            "pokemon": {
+                "name": "tynamo",
+                "url": "https://pokeapi.co/api/v2/pokemon/602/"
             }
         }
-    ],
-    "weight": 3
+    ]
 }
