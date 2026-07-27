@@ -1,23 +1,89 @@
 {
-    "base_happiness": 35,
-    "capture_rate": 225,
+    "base_happiness": 70,
+    "capture_rate": 255,
     "color": {
-        "name": "black",
-        "url": "https://pokeapi.co/api/v2/pokemon-color/1/"
+        "name": "brown",
+        "url": "https://pokeapi.co/api/v2/pokemon-color/3/"
     },
     "egg_groups": [
         {
-            "name": "indeterminate",
-            "url": "https://pokeapi.co/api/v2/egg-group/11/"
+            "name": "bug",
+            "url": "https://pokeapi.co/api/v2/egg-group/3/"
         }
     ],
     "evolution_chain": {
-        "url": "https://pokeapi.co/api/v2/evolution-chain/181/"
+        "url": "https://pokeapi.co/api/v2/evolution-chain/5/"
     },
     "evolves_from_species": null,
     "flavor_text_entries": [
         {
-            "flavor_text": "SHUPPET is attracted by feelings\nof jealousy and vindictiveness.\nIf someone develops strong feelings of\fvengeance, this POK\u00e9MON will appear\nin a swarm and line up beneath the eaves\nof that person\u2019s home.",
+            "flavor_text": "Often found in\nforests, eating\nleaves.\fIt has a sharp\nvenomous stinger\non its head.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "red",
+                "url": "https://pokeapi.co/api/v2/version/1/"
+            }
+        },
+        {
+            "flavor_text": "Often found in\nforests, eating\nleaves.\fIt has a sharp\nvenomous stinger\non its head.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "blue",
+                "url": "https://pokeapi.co/api/v2/version/2/"
+            }
+        },
+        {
+            "flavor_text": "Beware of the\nsharp stinger on\nits head. It\fhides in grass\nand bushes where\nit eats leaves.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "yellow",
+                "url": "https://pokeapi.co/api/v2/version/3/"
+            }
+        },
+        {
+            "flavor_text": "Its poison stinger\nis very powerful.\nIts bright-colored\fbody is intended\nto warn off its\nenemies.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "gold",
+                "url": "https://pokeapi.co/api/v2/version/4/"
+            }
+        },
+        {
+            "flavor_text": "It attacks using a\ntwo-inch poison\nbarb on its head.\fIt can usually be\nfound under the\nleaves it eats.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "silver",
+                "url": "https://pokeapi.co/api/v2/version/5/"
+            }
+        },
+        {
+            "flavor_text": "The barb on top of\nits head secretes\na strong poison.\fIt uses this toxic\nbarb to protect\nitself.",
+            "language": {
+                "name": "en",
+                "url": "https://pokeapi.co/api/v2/language/9/"
+            },
+            "version": {
+                "name": "crystal",
+                "url": "https://pokeapi.co/api/v2/version/6/"
+            }
+        },
+        {
+            "flavor_text": "WEEDLE has an extremely acute sense\nof smell.\nIt is capable of distinguishing its\ffavorite kinds of leaves from those it\ndislikes just by sniffing with its big\nred proboscis (nose).",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -28,7 +94,7 @@
             }
         },
         {
-            "flavor_text": "SHUPPET grows by feeding on dark\nemotions, such as vengefulness and\nenvy, in the hearts of people.\fIt roams through cities in search of\ngrudges that taint people.",
+            "flavor_text": "WEEDLE has an extremely acute sense\nof smell.\nIt is capable of distinguishing its\ffavorite kinds of leaves from those it\ndislikes just by sniffing with its big\nred proboscis (nose).",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -39,7 +105,7 @@
             }
         },
         {
-            "flavor_text": "This POK\u00e9MON roams about deep in the\nnight seeking such negative emotions as\ngrudges and envy. It retreats to its nest\nwhen the sun begins to rise.",
+            "flavor_text": "A WEEDLE has an extremely acute sense\nof smell. It distinguishes its favorite\nkinds of leaves from those it dislikes by\nsniffing with its big red proboscis (nose).",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -50,7 +116,7 @@
             }
         },
         {
-            "flavor_text": "It loves to feed on feelings like envy and\nmalice. Its upright horn catches the\nemotions of people.",
+            "flavor_text": "Often found in forests and grasslands.\nIt has a sharp, toxic barb of around two\ninches on top of its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -61,7 +127,7 @@
             }
         },
         {
-            "flavor_text": "It loves to feed on feelings like envy and\nmalice. Its upright horn catches the\nemotions of people.",
+            "flavor_text": "Often found in forests, eating leaves.\nIt has a sharp stinger on its head that\ninjects poison.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -72,7 +138,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -83,7 +149,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -94,7 +160,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -105,7 +171,7 @@
             }
         },
         {
-            "flavor_text": "It uses its horn to feed on envy\nand malice, or so it\u2019s said.\nIt\u2019s very active at night.",
+            "flavor_text": "Its poison stinger is very powerful.\nIts bright-colored body is intended\nto warn off its enemies.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -116,7 +182,7 @@
             }
         },
         {
-            "flavor_text": "It uses its horn to feed on envy\nand malice, or so it\u2019s said.\nIt\u2019s very active at night.",
+            "flavor_text": "It attacks using a two-inch poison\nbarb on its head. It can usually be\nfound under the leaves it eats.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -127,7 +193,7 @@
             }
         },
         {
-            "flavor_text": "Il aime le go\u00fbt de la vengeance.\nIls vivent en rangs sous les\ngoutti\u00e8res des gens vindicatifs.",
+            "flavor_text": "Il mange chaque jour son poids en\nfeuilles. Il utilise l\u2019aiguillon sur sa\nt\u00eate pour repousser l\u2019ennemi.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -138,7 +204,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -149,7 +215,7 @@
             }
         },
         {
-            "flavor_text": "Il aime le go\u00fbt de la vengeance.\nIls vivent en rangs sous les\ngoutti\u00e8res des gens vindicatifs.",
+            "flavor_text": "Il mange chaque jour son poids en\nfeuilles. Il utilise l\u2019aiguillon sur sa\nt\u00eate pour repousser l\u2019ennemi.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -160,7 +226,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and\nhangs in rows under the eaves of\nhouses where vengeful people live.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -171,7 +237,7 @@
             }
         },
         {
-            "flavor_text": "It feeds on the dark emotions of\nsadness and hatred, which make it\ngrow steadily stronger.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -182,7 +248,7 @@
             }
         },
         {
-            "flavor_text": "It feeds on the dark emotions of\nsadness and hatred, which make it\ngrow steadily stronger.",
+            "flavor_text": "It eats its weight in leaves every\nday. It fends off attackers with\nthe needle on its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -193,7 +259,7 @@
             }
         },
         {
-            "flavor_text": "\u3042\u305f\u307e\u306e\u3000\u30c4\u30ce\u3067\u3000\u3046\u3089\u307f\u3084\u3000\u306d\u305f\u307f\u306e\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u305f\u3079\u308b\u3068\u3000\u3044\u308f\u308c\u308b\u3002\n\u307e\u3088\u306a\u304b\u3000\u304b\u3063\u3071\u3064\u306b\u3000\u304b\u3064\u3069\u3046\u3059\u308b\u3002",
+            "flavor_text": "\u3082\u308a\u3084\u3000\u304f\u3055\u3061\u306b\u3000\u304a\u304a\u304f\u3000\u305b\u3044\u305d\u304f\u3002\n\u3042\u305f\u307e\u306e\u3000\u3055\u304d\u306b\u3000\uff15\u30bb\u30f3\u30c1\u3050\u3089\u3044\u306e\n\u3061\u3044\u3055\u304f\u3000\u3059\u308b\u3069\u3044\u3000\u3069\u304f\u3070\u308a\u3092\u3082\u3064\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
@@ -204,7 +270,7 @@
             }
         },
         {
-            "flavor_text": "\uba38\ub9ac\uc758 \ubfd4\ub85c \uc6d0\ud55c\uacfc \uc9c8\ud22c\uc758\n\uac10\uc815\uc744 \uba39\ub294\ub2e4\uace0 \uc804\ud574\uc9c4\ub2e4.\n\ud55c\ubc24\uc911\uc5d0 \ud65c\ubc1c\ud558\uac8c \ud65c\ub3d9\ud55c\ub2e4.",
+            "flavor_text": "\uc232\uc774\ub098 \ud480\ubc2d\uc5d0 \ub9ce\uc774 \uc11c\uc2dd\ud55c\ub2e4.\n\uba38\ub9ac\ub05d\uc5d0 5cm \uc815\ub3c4\uc758\n\uc791\uace0 \ub0a0\uce74\ub85c\uc6b4 \ub3c5\uce68\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
@@ -215,7 +281,7 @@
             }
         },
         {
-            "flavor_text": "Ce Pok\u00e9mon, tr\u00e8s actif la nuit, utilise sa corne pour\nse repa\u00eetre de rancune ou de jalousie.",
+            "flavor_text": "On trouve souvent ce Pok\u00e9mon dans les for\u00eats et\nles hautes herbes. L\u2019aiguillon de 5 cm sur sa t\u00eate\ncontient un venin tr\u00e8s toxique.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -226,7 +292,7 @@
             }
         },
         {
-            "flavor_text": "Man sagt, durch sein Horn ern\u00e4hre es sich von\nRachsucht und Neid. Erst nachts wird es richtig aktiv.",
+            "flavor_text": "Es lebt bevorzugt in W\u00e4ldern und in hohem Gras.\nAuf dem Kopf tr\u00e4gt es einen circa 5 cm langen,\nspitzen, giftigen Stachel.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
@@ -237,7 +303,7 @@
             }
         },
         {
-            "flavor_text": "Dicen que con su cuerno se alimenta de sentimientos\nde celos y envidia. Es muy activo a medianoche.",
+            "flavor_text": "Suele habitar bosques y praderas. Tiene un afilado y\nvenenoso aguij\u00f3n de unos 5 cm encima de la cabeza.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
@@ -248,7 +314,7 @@
             }
         },
         {
-            "flavor_text": "Si dice che si nutra di rancore e invidia con il corno\nche ha sulla testa. A mezzanotte si scatena.",
+            "flavor_text": "Vive soprattutto nei boschi e nei prati. Sul capo ha\nun affilato e velenoso pungiglione lungo 5 cm.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
@@ -259,7 +325,7 @@
             }
         },
         {
-            "flavor_text": "It uses its horn to feed on envy and malice--\nor so it\u2019s said. It\u2019s very active at night.",
+            "flavor_text": "Often found in forests and grasslands.\nIt has a sharp, toxic barb of around two inches\non top of its head.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -270,7 +336,7 @@
             }
         },
         {
-            "flavor_text": "\u982d\u306e\u3000\u30c4\u30ce\u3067\u3000\u6068\u307f\u3084\u3000\u306d\u305f\u307f\u306e\n\u611f\u60c5\u3092\u3000\u98df\u3079\u308b\u3068\u3000\u8a00\u308f\u308c\u308b\u3002\n\u771f\u591c\u4e2d\u3000\u6d3b\u767a\u306b\u3000\u6d3b\u52d5\u3059\u308b\u3002",
+            "flavor_text": "\u68ee\u3084\u3000\u8349\u5730\u306b\u3000\u591a\u304f\u3000\u751f\u606f\u3002\n\u982d\u306e\u3000\u5148\u306b\u3000\uff15\u30bb\u30f3\u30c1\u3050\u3089\u3044\u306e\n\u5c0f\u3055\u304f\u3000\u92ed\u3044\u3000\u6bd2\u91dd\u3092\u6301\u3064\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
@@ -281,7 +347,7 @@
             }
         },
         {
-            "flavor_text": "Dicen que con su cuerno se alimenta de sentimientos\nde celos y envidia. Es muy activo a medianoche.",
+            "flavor_text": "Suele habitar bosques y praderas. Tiene un afilado y\nvenenoso aguij\u00f3n de unos 5 cm encima de la cabeza.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
@@ -292,7 +358,7 @@
             }
         },
         {
-            "flavor_text": "\u3046\u3089\u307f\u306e\u3000\u304b\u3093\u3058\u3087\u3046\u304c\u3000\u3060\u3044\u3059\u304d\u3002\n\u3046\u3089\u307f\u3092\u3000\u3082\u3064\u3000\u3072\u3068\u304c\u3000\u3059\u3080\u3000\u3044\u3048\u306e\n\u306e\u304d\u3057\u305f\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u3076\u3089\u3055\u304c\u308b\u3002",
+            "flavor_text": "\u3069\u304f\u3070\u308a\u306f\u3000\u3068\u3066\u3082\u3000\u304d\u3087\u3046\u308a\u3087\u304f\u3002\n\u3081\u3060\u3064\u3000\u304b\u3089\u3060\u306e\u3000\u3044\u308d\u306f\n\u3042\u3044\u3066\u306b\u3000\u3051\u3044\u304b\u3044\u3092\u3000\u3055\u305b\u308b\u305f\u3081\u3060\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
@@ -303,7 +369,7 @@
             }
         },
         {
-            "flavor_text": "\uc6d0\ub9dd\ud558\ub294 \uac10\uc815\uc744 \ub9e4\uc6b0 \uc88b\uc544\ud55c\ub2e4.\n\uc6d0\ud55c\uc744 \uac00\uc9c0\uace0 \uc788\ub294 \uc0ac\ub78c\uc774 \uc0ac\ub294 \uc9d1\n\ucc98\ub9c8 \ubc11\uc5d0 \uc8fd \ub9e4\ub2ec\ub824 \uc788\ub2e4.",
+            "flavor_text": "\ub3c5\uce68\uc774 \ub9e4\uc6b0 \uac15\ub825\ud558\ub2e4.\n\ub208\uc5d0 \ub744\ub294 \ubab8\uc758 \uc0c9\uae54\uc740\n\uc0c1\ub300\ubc29\uc744 \uacbd\uacc4\uc2dc\ud0a4\uae30 \uc704\ud574\uc11c\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
@@ -314,7 +380,7 @@
             }
         },
         {
-            "flavor_text": "Il aime le go\u00fbt de la vengeance. Les Pok\u00e9mon de\ncette esp\u00e8ce vivent en rangs sous les goutti\u00e8res\ndes gens vindicatifs.",
+            "flavor_text": "Son aiguillon empoisonn\u00e9 est tr\u00e8s dangereux.\nSon corps est color\u00e9 afin de repousser ses ennemis.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -325,7 +391,7 @@
             }
         },
         {
-            "flavor_text": "Es liebt Rachegef\u00fchle. Diese Pok\u00e9mon h\u00e4ngen sich\nan Dachrinnen von H\u00e4usern, in denen Rachs\u00fcchtige\nleben.",
+            "flavor_text": "Sein Giftstachel ist gef\u00e4hrlich. Sein hellleuchtender\nK\u00f6rper soll Feinde abschrecken.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
@@ -336,7 +402,7 @@
             }
         },
         {
-            "flavor_text": "Les atraen los sentimientos de rencor y celos.\nSuelen vivir cerca de las casas de gente vengativa.",
+            "flavor_text": "Su venenoso aguij\u00f3n es muy potente y su colorido\ncuerpo hace que los enemigos huyan.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
@@ -347,7 +413,7 @@
             }
         },
         {
-            "flavor_text": "Si annida sotto le grondaie di case dove vive gente\nche cova sentimenti di vendetta, che lui adora.",
+            "flavor_text": "Ha un pungiglione molto velenoso. La vivace\ncolorazione del suo corpo \u00e8 un avvertimento per i\nnemici.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
@@ -358,7 +424,7 @@
             }
         },
         {
-            "flavor_text": "It loves vengeful emotions and hangs in rows under\nthe eaves of houses where vengeful people live.",
+            "flavor_text": "Its poison stinger is very powerful.\nIts bright-colored body is intended to\nwarn off its enemies.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -369,7 +435,7 @@
             }
         },
         {
-            "flavor_text": "\u6068\u307f\u306e\u3000\u611f\u60c5\u304c\u3000\u5927\u597d\u304d\u3002\n\u6068\u307f\u3092\u3000\u6301\u3064\u3000\u4eba\u304c\u3000\u4f4f\u3080\u3000\u5bb6\u306e\n\u8ed2\u4e0b\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u3076\u3089\u3055\u304c\u308b\u3002",
+            "flavor_text": "\u6bd2\u91dd\u306f\u3000\u3068\u3066\u3082\u3000\u5f37\u529b\u3002\n\u76ee\u7acb\u3064\u3000\u4f53\u306e\u3000\u8272\u306f\n\u76f8\u624b\u306b\u3000\u8b66\u6212\u3092\u3000\u3055\u305b\u308b\u305f\u3081\u3060\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
@@ -380,7 +446,7 @@
             }
         },
         {
-            "flavor_text": "Les atraen los sentimientos de rencor y celos.\nSuelen vivir cerca de las casas de gente vengativa.",
+            "flavor_text": "Su venenoso aguij\u00f3n es muy potente y su colorido\ncuerpo hace que los enemigos huyan.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
@@ -391,7 +457,7 @@
             }
         },
         {
-            "flavor_text": "\u306d\u305f\u307f\u3000\u3046\u3089\u307f\u306e\u3000\u304b\u3093\u3058\u3087\u3046\u306b\u3000\u3072\u304d\u3088\u305b\u3089\u308c\u308b\u3002\n\u3060\u308c\u304b\u3092\u3000\u3046\u3089\u3080\u3000\u3053\u3053\u308d\u304c\u3000\u3064\u3088\u304f\u3000\u306a\u308b\u3068\n\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u306e\u304d\u3057\u305f\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u306a\u3089\u3076\u305e\u3002",
+            "flavor_text": "\u3068\u3066\u3082\u3000\u3059\u308b\u3069\u3044\u3000\u304d\u3085\u3046\u304b\u304f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3002\n\u3053\u3046\u3076\u3064\u306e\u3000\u306f\u3063\u3071\u304b\u3000\u304d\u3089\u3044\u306a\u3000\u306f\u3063\u3071\u304b\n\u304a\u304a\u304d\u306a\u3000\u3042\u304b\u3044\u3000\u306f\u306a\u3067\u3000\u304b\u304e\u308f\u3051\u308b\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
@@ -402,7 +468,7 @@
             }
         },
         {
-            "flavor_text": "\uc9c8\ud22c\uc640 \uc6d0\ud55c\uc758 \uac10\uc815\uc5d0 \uc774\ub04c\ub9b0\ub2e4.\n\ub204\uad70\uac00\ub97c \uc6d0\ub9dd\ud558\ub294 \ub9c8\uc74c\uc774 \uac15\ud574\uc9c0\uba74\n\uc5b4\ub460\ub300\uc2e0\uc774 \ucc98\ub9c8 \ubc11\uc5d0 \uc8fd \uc904\uc744 \uc120\ub2e4.",
+            "flavor_text": "\uad49\uc7a5\ud788 \uc608\ubbfc\ud55c \ud6c4\uac01\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.\n\uc88b\uc544\ud558\ub294 \uc78e\uc0ac\uadc0\uc778\uc9c0 \uc2eb\uc5b4\ud558\ub294 \uc78e\uc0ac\uadc0\uc778\uc9c0\n\ud06c\uace0 \ube68\uac04 \ucf54\ub85c \ub0c4\uc0c8 \ub9e1\uc544 \uad6c\ubcc4\ud55c\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
@@ -413,7 +479,7 @@
             }
         },
         {
-            "flavor_text": "Les Polichombr sont attir\u00e9s par les sentiments de jalousie\net les esprits revanchards. Si quelqu\u2019un veut se venger,\nces Pok\u00e9mon apparaissent en nu\u00e9e et s\u2019alignent devant\nla porte des gens concern\u00e9s.",
+            "flavor_text": "L\u2019odorat d\u2019Aspicot est extr\u00eamement d\u00e9velopp\u00e9. Il lui suffit de\nrenifler ses feuilles pr\u00e9f\u00e9r\u00e9es avec son gros appendice nasal\npour les reconna\u00eetre entre mille.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -424,7 +490,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet wird durch Gef\u00fchle wie Neid und Rachsucht\nangezogen. Wenn jemand starke Rachegel\u00fcste entwickelt,\nerscheinen diese Pok\u00e9mon in Scharen und reihen sich unter\nder Dachrinne des Hauses dieser Person auf.",
+            "flavor_text": "Hornliu verf\u00fcgt \u00fcber einen ausgezeichneten Geruchssinn.\nSo kann es seine Lieblingsbl\u00e4tter von denen unterscheiden,\ndie es nicht mag, indem es mit seiner gro\u00dfen roten Nase\ndaran schnuppert.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
@@ -435,7 +501,7 @@
             }
         },
         {
-            "flavor_text": "A Shuppet le atraen los sentimientos de celos y rencor.\nSi alguien desarrolla fuertes sentimientos de venganza,\naparecer\u00e1 una multitud de Shuppet que se quedar\u00e1 bajo\nlos aleros de su casa.",
+            "flavor_text": "Weedle tiene un fin\u00edsimo sentido del olfato. Es capaz de\ndistinguir las hojas que le gustan de las que no le gustan\nolisqueando un poco con la gran nariz que tiene.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
@@ -446,7 +512,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet \u00e8 attratto dai sentimenti turpi di gelosia e vendetta.\nSe qualcuno serba un forte rancore, questi Pok\u00e9mon arrivano\na frotte per annidarsi sotto i cornicioni di casa sua.",
+            "flavor_text": "Weedle ha un senso dell\u2019olfatto estremamente sviluppato.\nRiesce a distinguere le sue foglie preferite da quelle che\nlo disgustano semplicemente annusandole con il grande\nnaso rosso.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
@@ -457,7 +523,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet is attracted by feelings of jealousy and vindictiveness.\nIf someone develops strong feelings of vengeance, this\nPok\u00e9mon will appear in a swarm and line up beneath the eaves\nof that person\u2019s home.",
+            "flavor_text": "Weedle has an extremely acute sense of smell. It is capable of\ndistinguishing its favorite kinds of leaves from those it dislikes\njust by sniffing with its big red proboscis (nose).",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -468,7 +534,7 @@
             }
         },
         {
-            "flavor_text": "\u306d\u305f\u307f\u3000\u6068\u307f\u306e\u3000\u611f\u60c5\u306b\u3000\u5f15\u304d\u5bc4\u305b\u3089\u308c\u308b\u3002\n\u8ab0\u304b\u3092\u3000\u6068\u3080\u3000\u5fc3\u304c\u3000\u5f37\u304f\u3000\u306a\u308b\u3068\n\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u8ed2\u4e0b\u306b\u3000\u305a\u3089\u308a\u3068\u3000\u4e26\u3076\u305e\u3002",
+            "flavor_text": "\u3068\u3066\u3082\u3000\u92ed\u3044\u3000\u55c5\u899a\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3002\n\u597d\u7269\u306e\u3000\u8449\u3063\u3071\u304b\u3000\u5acc\u3044\u306a\u3000\u8449\u3063\u3071\u304b\n\u5927\u304d\u306a\u3000\u8d64\u3044\u3000\u9f3b\u3067\u3000\u55c5\u304e\u5206\u3051\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
@@ -479,7 +545,7 @@
             }
         },
         {
-            "flavor_text": "A Shuppet le atraen los sentimientos de celos y rencor.\nSi alguien desarrolla fuertes sentimientos de venganza,\naparecer\u00e1 una multitud de Shuppet que se quedar\u00e1 bajo\nlos aleros de su casa.",
+            "flavor_text": "Weedle tiene un fin\u00edsimo sentido del olfato. Es capaz de\ndistinguir las hojas que le gustan de las que no le gustan\nolisqueando un poco con la gran nariz que tiene.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
@@ -490,7 +556,7 @@
             }
         },
         {
-            "flavor_text": "\u3072\u3068\u306e\u3000\u3053\u3053\u308d\u306b\u3000\u3042\u308b\u3000\u3046\u3089\u307f\u3084\u3000\u306d\u305f\u307f\u3000\u306a\u3069\u306e\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u305f\u3079\u3066\u3000\u305b\u3044\u3061\u3087\u3046\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u3046\u3089\u3080\u3000\u3053\u3053\u308d\u3092\u3000\u3055\u304c\u3057\u3066\u3000\u307e\u3061\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "flavor_text": "\u3068\u3066\u3082\u3000\u3059\u308b\u3069\u3044\u3000\u304d\u3085\u3046\u304b\u304f\u3092\u3000\u3082\u3063\u3066\u3044\u308b\u3002\n\u3053\u3046\u3076\u3064\u306e\u3000\u306f\u3063\u3071\u304b\u3000\u304d\u3089\u3044\u306a\u3000\u306f\u3063\u3071\u304b\n\u304a\u304a\u304d\u306a\u3000\u3042\u304b\u3044\u3000\u306f\u306a\u3067\u3000\u304b\u304e\u308f\u3051\u308b\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
@@ -501,7 +567,7 @@
             }
         },
         {
-            "flavor_text": "\uc0ac\ub78c\uc758 \ub9c8\uc74c\uc18d\uc5d0 \uc788\ub294 \uc6d0\ud55c\uacfc \uc9c8\ud22c \uac19\uc740\n\uac10\uc815\uc744 \uba39\uace0 \uc131\uc7a5\ud558\ub294 \ud3ec\ucf13\ubaac\uc774\ub2e4.\n\uc6d0\ub9dd\ud558\ub294 \ub9c8\uc74c\uc744 \ucc3e\uc544 \ub9c8\uc744\uc744 \ud5e4\ub9e8\ub2e4.",
+            "flavor_text": "\uad49\uc7a5\ud788 \uc608\ubbfc\ud55c \ud6c4\uac01\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.\n\uc88b\uc544\ud558\ub294 \uc78e\uc0ac\uadc0\uc778\uc9c0 \uc2eb\uc5b4\ud558\ub294 \uc78e\uc0ac\uadc0\uc778\uc9c0\n\ud06c\uace0 \ube68\uac04 \ucf54\ub85c \ub0c4\uc0c8 \ub9e1\uc544 \uad6c\ubcc4\ud55c\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
@@ -512,7 +578,7 @@
             }
         },
         {
-            "flavor_text": "Polichombr grandit en se nourrissant des \u00e9motions n\u00e9gatives\ndes gens, comme le d\u00e9sir de vengeance ou la jalousie. Il erre\ndans les villes \u00e0 la recherche des gens qui n\u2019ont pas le moral.",
+            "flavor_text": "L\u2019odorat d\u2019Aspicot est extr\u00eamement d\u00e9velopp\u00e9. Il lui suffit de\nrenifler ses feuilles pr\u00e9f\u00e9r\u00e9es avec son gros appendice nasal\npour les reconna\u00eetre entre mille.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
@@ -523,7 +589,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet w\u00e4chst, indem es sich von d\u00fcsteren Gef\u00fchlen\nwie Rachsucht und Neid ern\u00e4hrt. Es streift durch St\u00e4dte\nund sucht nach Empfindungen, die als Ursache f\u00fcr den\nVerderb der Menschen gelten.",
+            "flavor_text": "Hornliu verf\u00fcgt \u00fcber einen ausgezeichneten Geruchssinn.\nEs ist in der Lage, seine Lieblingsbl\u00e4tter von denen zu\nunterscheiden, die es nicht mag, indem es mit seinem gro\u00dfen\nroten R\u00fcssel daran schnuppert.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
@@ -534,7 +600,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet crece aliment\u00e1ndose de sentimientos negativos,\ncomo el rencor y la envidia, que nacen en el coraz\u00f3n de las\npersonas. Se dedica a vagar por las ciudades en busca del\nrencor que contamina a la gente.",
+            "flavor_text": "Weedle tiene un fin\u00edsimo sentido del olfato. Es capaz de\ndistinguir las hojas que le gustan de las que no le gustan\nolisqueando un poco con la gran nariz que tiene.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
@@ -545,7 +611,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet cresce alimentandosi di sentimenti turpi, come la\nvendetta e l\u2019invidia, insiti nel cuore delle persone. Si aggira\nper le citt\u00e0 in cerca del rancore che insudicia gli animi.",
+            "flavor_text": "Weedle ha un senso dell\u2019olfatto estremamente sviluppato.\nRiesce a distinguere le sue foglie preferite da quelle che\nlo disgustano semplicemente annusandole con il grande\nnaso rosso.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
@@ -556,7 +622,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet grows by feeding on dark emotions, such as\nvengefulness and envy, in the hearts of people. It roams\nthrough cities in search of grudges that taint people.",
+            "flavor_text": "Weedle has an extremely acute sense of smell. It is capable\nof distinguishing its favorite kinds of leaves from those it\ndislikes just by sniffing with its big red proboscis (nose).",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
@@ -567,7 +633,7 @@
             }
         },
         {
-            "flavor_text": "\u4eba\u306e\u3000\u5fc3\u306b\u3000\u3042\u308b\u3000\u3046\u3089\u307f\u3084\u3000\u306d\u305f\u307f\u3000\u306a\u3069\u306e\n\u611f\u60c5\u3092\u3000\u98df\u3079\u3066\u3000\u6210\u9577\u3059\u308b\u3000\u30dd\u30b1\u30e2\u30f3\u3002\n\u6068\u3080\u3000\u5fc3\u3092\u3000\u63a2\u3057\u3066\u3000\u8857\u3092\u3000\u3055\u307e\u3088\u3046\u3002",
+            "flavor_text": "\u3068\u3066\u3082\u3000\u92ed\u3044\u3000\u55c5\u899a\u3092\u3000\u6301\u3063\u3066\u3044\u308b\u3002\n\u597d\u7269\u306e\u3000\u8449\u3063\u3071\u304b\u3000\u5acc\u3044\u306a\u3000\u8449\u3063\u3071\u304b\n\u5927\u304d\u306a\u3000\u8d64\u3044\u3000\u9f3b\u3067\u3000\u55c5\u304e\u5206\u3051\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
@@ -578,7 +644,7 @@
             }
         },
         {
-            "flavor_text": "Shuppet crece aliment\u00e1ndose de sentimientos negativos,\ncomo el rencor y la envidia, que nacen en el coraz\u00f3n de las\npersonas. Se dedica a vagar por las ciudades en busca del\nrencor que contamina a la gente.",
+            "flavor_text": "Weedle tiene un fin\u00edsimo sentido del olfato. Es capaz de\ndistinguir las hojas que le gustan de las que no le gustan\nolisqueando un poco con la gran nariz que tiene.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
@@ -589,245 +655,245 @@
             }
         },
         {
-            "flavor_text": "\u3046\u3089\u307f\u3000\u306d\u305f\u307f\u3000\u305d\u306d\u307f\u306e\u3000\u3088\u3046\u306a\n\u304b\u3093\u3058\u3087\u3046\u3092\u3000\u304f\u3089\u3046\u306e\u3067\u3000\u3072\u3068\u306b\n\u3088\u3063\u3066\u306f\u3000\u3042\u308a\u304c\u305f\u3044\u3000\u305d\u3093\u3056\u3044\u3060\u3002",
+            "flavor_text": "\u3042\u305f\u307e\u306b\u3000\u3059\u308b\u3069\u3044\u3000\u30cf\u30ea\u3092\u3000\u3082\u3064\u3002\n\u3082\u308a\u3084\u3000\u304f\u3055\u3061\u306e\u3000\u3057\u3052\u307f\u306b\u3000\u304b\u304f\u308c\n\u3072\u305f\u3059\u3089\u3000\u30cf\u30c3\u30d1\u3092\u3000\u305f\u3079\u3066\u3044\u308b\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "\uc6d0\ud55c, \uc2dc\uc0d8, \uc9c8\ud22c \uac19\uc740\n\uac10\uc815\uc744 \uba39\uae30 \ub54c\ubb38\uc5d0 \uc0ac\ub78c\uc5d0\uac8c\ub294\n\uace0\ub9c8\uc6b4 \uc874\uc7ac\ub2e4.",
+            "flavor_text": "\uba38\ub9ac\uc5d0 \ub0a0\uce74\ub85c\uc6b4 \uce68\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.\n\uc6b0\uac70\uc9c4 \uc232\uc774\ub098 \ud480\ubc2d\uc5d0 \uc228\uc5b4\n\ub04a\uc784\uc5c6\uc774 \ud480\uc78e\uc744 \uba39\uace0 \uc788\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "\u56e0\u70ba\u6703\u541e\u98df\u6028\u6068\u3001\u5ac9\u5992\n\u4e4b\u985e\u7684\u60c5\u611f\uff0c\u5c0d\u67d0\u4e9b\u4eba\u4f86\u8aaa\n\u662f\u5f88\u53ef\u8cb4\u7684\u5bf6\u53ef\u5922\u3002",
+            "flavor_text": "\u982d\u4e0a\u9577\u8457\u5c16\u92b3\u7684\u91dd\u3002\n\u7e3d\u662f\u8eb2\u5728\u68ee\u6797\u6216\u662f\u8349\u53e2\u88e1\uff0c\n\u4e0d\u505c\u5730\u5403\u8457\u8449\u5b50\u3002",
             "language": {
                 "name": "zh-hant",
                 "url": "https://pokeapi.co/api/v2/language/4/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "Les gens appr\u00e9cient ce Pok\u00e9mon, car il se\nnourrit de leurs \u00e9motions n\u00e9gatives telles que\nla ranc\u0153ur et la jalousie.",
+            "flavor_text": "L\u2019aiguillon sur son front est tr\u00e8s pointu.\nIl se cache dans les bois et les hautes herbes,\no\u00f9 il se gave de feuilles.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "Da es sich von Gef\u00fchlen wie Rachsucht, Neid\nund Eifersucht ern\u00e4hrt, sind die Menschen f\u00fcr\ndie Existenz dieses Pok\u00e9mon dankbar.",
+            "flavor_text": "Auf seinem Kopf befindet sich ein spitzer\nStachel. Es versteckt sich im hohen Gras\nsowie in W\u00e4ldern und frisst eifrig Bl\u00e4tter.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "Se alimenta de sentimientos negativos como la\nenvidia, el rencor y el odio, as\u00ed que su presencia\nes m\u00e1s que bienvenida por los humanos.",
+            "flavor_text": "El aguij\u00f3n de la cabeza es muy puntiagudo.\nSe alimenta de hojas oculto en la espesura\nde bosques y praderas.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "Si nutre di sentimenti turpi come rancore, invidia\ne gelosia. Per questo, alcuni sono felici che\nesista.",
+            "flavor_text": "Ha un pungiglione acuminato sul capo. Vive tra\nl\u2019erba alta e nei boschi, dove si nutre di foglie.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "It eats up emotions like malice, jealousy, and\nresentment, so some people are grateful for\nits presence.",
+            "flavor_text": "Beware of the sharp stinger on its head. It hides\nin grass and bushes where it eats leaves.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "\u6068\u307f\u3000\u59ac\u307f\u3000\u5ac9\u307f\u306e\u3000\u3088\u3046\u306a\n\u611f\u60c5\u3092\u3000\u98df\u3089\u3046\u306e\u3067\u3000\u4eba\u306b\u3000\u3088\u3063\u3066\u306f\n\u3042\u308a\u304c\u305f\u3044\u3000\u5b58\u5728\u3060\u3002",
+            "flavor_text": "\u982d\u306b\u3000\u92ed\u3044\u3000\u30cf\u30ea\u3092\u3000\u3082\u3064\u3002\n\u68ee\u3084\u3000\u8349\u5730\u306e\u3000\u8302\u307f\u306b\u3000\u96a0\u308c\n\u3072\u305f\u3059\u3089\u3000\u30cf\u30c3\u30d1\u3092\u3000\u98df\u3079\u3066\u3044\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "\u56e0\u4e3a\u4f1a\u541e\u98df\u7c7b\u4f3c\u4e8e\n\u6028\u6068\u3001\u5ac9\u5992\u4e4b\u7c7b\u7684\u611f\u60c5\uff0c\n\u6240\u4ee5\u5bf9\u4e8e\u6709\u7684\u4eba\u6765\u8bf4\u662f\u53ef\u8d35\u7684\u5b58\u5728\u3002",
+            "flavor_text": "\u5934\u4e0a\u957f\u6709\u5c16\u9510\u7684\u9488\u3002\n\u5b83\u559c\u6b22\u85cf\u5728\u68ee\u6797\u6216\n\u8349\u4e1b\u91cc\u5927\u91cf\u541e\u98df\u6811\u53f6\u3002",
             "language": {
                 "name": "zh-hans",
                 "url": "https://pokeapi.co/api/v2/language/12/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "Se alimenta de sentimientos negativos como la\nenvidia, el rencor y el odio, as\u00ed que su presencia\nes m\u00e1s que bienvenida por los humanos.",
+            "flavor_text": "El aguij\u00f3n de la cabeza es muy puntiagudo.\nSe alimenta de hojas oculto en la espesura\nde bosques y praderas.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
             },
             "version": {
-                "name": "ultra-sun",
-                "url": "https://pokeapi.co/api/v2/version/29/"
+                "name": "lets-go-pikachu",
+                "url": "https://pokeapi.co/api/v2/version/31/"
             }
         },
         {
-            "flavor_text": "\u3072\u3050\u308c\u306b\u3000\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u306a\u3089\u3076\u3088\u3046\u306a\n\u3044\u3048\u3068\u306f\u3000\u3064\u304d\u3042\u3046\u306a\u3000\u3068\u3000\u3044\u3046\n\u3075\u308b\u3044\u3000\u3053\u3068\u308f\u3056\u304c\u3000\u306e\u3053\u3063\u3066\u3044\u308b\u3002",
+            "flavor_text": "\u3042\u305f\u307e\u306b\u3000\u3059\u308b\u3069\u3044\u3000\u30cf\u30ea\u3092\u3000\u3082\u3064\u3002\n\u3082\u308a\u3084\u3000\u304f\u3055\u3061\u306e\u3000\u3057\u3052\u307f\u306b\u3000\u304b\u304f\u308c\n\u3072\u305f\u3059\u3089\u3000\u30cf\u30c3\u30d1\u3092\u3000\u305f\u3079\u3066\u3044\u308b\u3002",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "\ud574\uc9c8\ub158\uc5d0 \uc5b4\ub460\ub300\uc2e0\uc774 \uc904\uc9c0\uc5b4 \uc788\ub294\n\uc9d1\uacfc\ub294 \uc5b4\uc6b8\ub9ac\uc9c0 \ub9d0\ub77c\ub294\n\uc624\ub79c \uc18d\ub2f4\uc774 \ub0a8\uc544 \uc788\ub2e4.",
+            "flavor_text": "\uba38\ub9ac\uc5d0 \ub0a0\uce74\ub85c\uc6b4 \uce68\uc744 \uc9c0\ub2c8\uace0 \uc788\ub2e4.\n\uc6b0\uac70\uc9c4 \uc232\uc774\ub098 \ud480\ubc2d\uc5d0 \uc228\uc5b4\n\ub04a\uc784\uc5c6\uc774 \ud480\uc78e\uc744 \uba39\uace0 \uc788\ub2e4.",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "\u4e0d\u8981\u53bb\u8ddf\u90a3\u4e9b\u5728\u9ec3\u660f\u6642\u6709\n\u6028\u5f71\u5a03\u5a03\u5728\u6392\u968a\u7684\u4eba\u5bb6\u4f86\u5f80\u3002\n\u9019\u662f\u81ea\u53e4\u6d41\u50b3\u4e0b\u4f86\u7684\u8afa\u8a9e\u3002",
+            "flavor_text": "\u982d\u4e0a\u9577\u8457\u5c16\u92b3\u7684\u91dd\u3002\n\u7e3d\u662f\u8eb2\u5728\u68ee\u6797\u6216\u662f\u8349\u53e2\u88e1\uff0c\n\u4e0d\u505c\u5730\u5403\u8457\u8449\u5b50\u3002",
             "language": {
                 "name": "zh-hant",
                 "url": "https://pokeapi.co/api/v2/language/4/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "Il existe un proverbe ancien qui dit :\n\u00ab\u202fFuis la demeure o\u00f9 les Polichombr se\nrassemblent en nombre \u00e0 la p\u00e9nombre.\u202f\u00bb",
+            "flavor_text": "L\u2019aiguillon sur son front est tr\u00e8s pointu.\nIl se cache dans les bois et les hautes herbes,\no\u00f9 il se gave de feuilles.",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "Einem alten Sprichwort zufolge soll man sich von\nH\u00e4usern fernhalten, an denen sich bei Einbruch\nder Dunkelheit Shuppet aneinanderreihen.",
+            "flavor_text": "Auf seinem Kopf befindet sich ein spitzer\nStachel. Es versteckt sich im hohen Gras\nsowie in W\u00e4ldern und frisst eifrig Bl\u00e4tter.",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "Seg\u00fan un viejo proverbio, conviene mantenerse\nalejado de aquellas casas a las que se arrime\nuna multitud de Shuppet cuando cae la noche.",
+            "flavor_text": "El aguij\u00f3n de la cabeza es muy puntiagudo.\nSe alimenta de hojas oculto en la espesura\nde bosques y praderas.",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "Un vecchio proverbio esorta a stare lontani\ndalle case in cui, al calar del sole, si annidano\ngli Shuppet.",
+            "flavor_text": "Ha un pungiglione acuminato sul capo. Vive tra\nl\u2019erba alta e nei boschi, dove si nutre di foglie.",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "There\u2019s a proverb that says, \u201cShun the house\nwhere Shuppet gather in the growing dusk.\u201d",
+            "flavor_text": "Beware of the sharp stinger on its head. It hides\nin grass and bushes where it eats leaves.",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "\u65e5\u66ae\u308c\u306b\u3000\u30ab\u30b2\u30dc\u30a6\u30ba\u304c\u3000\u4e26\u3076\u3088\u3046\u306a\n\u5bb6\u3068\u306f\u3000\u4ed8\u304d\u5408\u3046\u306a\u3000\u3068\u3000\u3044\u3046\n\u53e4\u3044\u3000\u3053\u3068\u308f\u3056\u304c\u3000\u6b8b\u3063\u3066\u3044\u308b\u3002",
+            "flavor_text": "\u982d\u306b\u3000\u92ed\u3044\u3000\u30cf\u30ea\u3092\u3000\u3082\u3064\u3002\n\u68ee\u3084\u3000\u8349\u5730\u306e\u3000\u8302\u307f\u306b\u3000\u96a0\u308c\n\u3072\u305f\u3059\u3089\u3000\u30cf\u30c3\u30d1\u3092\u3000\u98df\u3079\u3066\u3044\u308b\u3002",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "\u6d41\u4f20\u7740\u8fd9\u6837\u7684\u53e4\u8001\u4fd7\u8bed\uff0c\n\u65e5\u66ae\u65f6\u5206\uff0c\u4e0d\u8981\u53bb\n\u6392\u5217\u7740\u6028\u5f71\u5a03\u5a03\u7684\u623f\u5b50\u3002",
+            "flavor_text": "\u5934\u4e0a\u957f\u6709\u5c16\u9510\u7684\u9488\u3002\n\u5b83\u559c\u6b22\u85cf\u5728\u68ee\u6797\u6216\n\u8349\u4e1b\u91cc\u5927\u91cf\u541e\u98df\u6811\u53f6\u3002",
             "language": {
                 "name": "zh-hans",
                 "url": "https://pokeapi.co/api/v2/language/12/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         },
         {
-            "flavor_text": "Seg\u00fan un viejo proverbio, conviene mantenerse\nalejado de aquellas casas a las que se arrime\nuna multitud de Shuppet cuando cae la noche.",
+            "flavor_text": "El aguij\u00f3n de la cabeza es muy puntiagudo.\nSe alimenta de hojas oculto en la espesura\nde bosques y praderas.",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
             },
             "version": {
-                "name": "ultra-moon",
-                "url": "https://pokeapi.co/api/v2/version/30/"
+                "name": "lets-go-eevee",
+                "url": "https://pokeapi.co/api/v2/version/32/"
             }
         }
     ],
@@ -836,77 +902,77 @@
     "gender_rate": 4,
     "genera": [
         {
-            "genus": "\u306b\u3093\u304e\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "genus": "\u3051\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
             }
         },
         {
-            "genus": "\uc778\ud615\ud3ec\ucf13\ubaac",
+            "genus": "\uc1a1\ucda9\uc774\ud3ec\ucf13\ubaac",
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
             }
         },
         {
-            "genus": "\u4eba\u5076\u5bf6\u53ef\u5922",
+            "genus": "\u6bdb\u6bdb\u87f2\u5bf6\u53ef\u5922",
             "language": {
                 "name": "zh-hant",
                 "url": "https://pokeapi.co/api/v2/language/4/"
             }
         },
         {
-            "genus": "Pok\u00e9mon Poup\u00e9e",
+            "genus": "Pok\u00e9mon Insectopic",
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
             }
         },
         {
-            "genus": "Puppe",
+            "genus": "Raupe",
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
             }
         },
         {
-            "genus": "Pok\u00e9mon T\u00edtere",
+            "genus": "Pok\u00e9mon Oruga",
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
             }
         },
         {
-            "genus": "Pok\u00e9mon Pupazzo",
+            "genus": "Pok\u00e9mon Millepiedi",
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
             }
         },
         {
-            "genus": "Puppet Pok\u00e9mon",
+            "genus": "Hairy Bug Pok\u00e9mon",
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
             }
         },
         {
-            "genus": "\u306b\u3093\u304e\u3087\u3046\u30dd\u30b1\u30e2\u30f3",
+            "genus": "\u3051\u3080\u3057\u30dd\u30b1\u30e2\u30f3",
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
             }
         },
         {
-            "genus": "\u4eba\u5076\u5b9d\u53ef\u68a6",
+            "genus": "\u6bdb\u6bdb\u866b\u5b9d\u53ef\u68a6",
             "language": {
                 "name": "zh-hans",
                 "url": "https://pokeapi.co/api/v2/language/12/"
             }
         },
         {
-            "genus": "Pok\u00e9mon T\u00edtere",
+            "genus": "Pok\u00e9mon Oruga",
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
@@ -914,180 +980,166 @@
         }
     ],
     "generation": {
-        "name": "generation-iii",
-        "url": "https://pokeapi.co/api/v2/generation/3/"
+        "name": "generation-i",
+        "url": "https://pokeapi.co/api/v2/generation/1/"
     },
     "growth_rate": {
-        "name": "fast",
-        "url": "https://pokeapi.co/api/v2/growth-rate/3/"
+        "name": "medium",
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/"
     },
     "habitat": {
-        "name": "urban",
-        "url": "https://pokeapi.co/api/v2/pokemon-habitat/8/"
+        "name": "forest",
+        "url": "https://pokeapi.co/api/v2/pokemon-habitat/2/"
     },
     "has_gender_differences": false,
-    "hatch_counter": 25,
-    "id": 353,
+    "hatch_counter": 15,
+    "id": 13,
     "is_baby": false,
     "is_legendary": false,
     "is_mythical": false,
-    "name": "shuppet",
+    "name": "weedle",
     "names": [
         {
             "language": {
                 "name": "ja-hrkt",
                 "url": "https://pokeapi.co/api/v2/language/1/"
             },
-            "name": "\u30ab\u30b2\u30dc\u30a6\u30ba"
+            "name": "\u30d3\u30fc\u30c9\u30eb"
         },
         {
             "language": {
                 "name": "ja-roma",
                 "url": "https://pokeapi.co/api/v2/language/2/"
             },
-            "name": "Kagebouzu"
+            "name": "Beedle"
         },
         {
             "language": {
                 "name": "ko",
                 "url": "https://pokeapi.co/api/v2/language/3/"
             },
-            "name": "\uc5b4\ub460\ub300\uc2e0"
+            "name": "\ubfd4\ucda9\uc774"
         },
         {
             "language": {
                 "name": "zh-hant",
                 "url": "https://pokeapi.co/api/v2/language/4/"
             },
-            "name": "\u6028\u5f71\u5a03\u5a03"
+            "name": "\u7368\u89d2\u87f2"
         },
         {
             "language": {
                 "name": "fr",
                 "url": "https://pokeapi.co/api/v2/language/5/"
             },
-            "name": "Polichombr"
+            "name": "Aspicot"
         },
         {
             "language": {
                 "name": "de",
                 "url": "https://pokeapi.co/api/v2/language/6/"
             },
-            "name": "Shuppet"
+            "name": "Hornliu"
         },
         {
             "language": {
                 "name": "es",
                 "url": "https://pokeapi.co/api/v2/language/7/"
             },
-            "name": "Shuppet"
+            "name": "Weedle"
         },
         {
             "language": {
                 "name": "it",
                 "url": "https://pokeapi.co/api/v2/language/8/"
             },
-            "name": "Shuppet"
+            "name": "Weedle"
         },
         {
             "language": {
                 "name": "en",
                 "url": "https://pokeapi.co/api/v2/language/9/"
             },
-            "name": "Shuppet"
+            "name": "Weedle"
         },
         {
             "language": {
                 "name": "ja",
                 "url": "https://pokeapi.co/api/v2/language/11/"
             },
-            "name": "\u30ab\u30b2\u30dc\u30a6\u30ba"
+            "name": "\u30d3\u30fc\u30c9\u30eb"
         },
         {
             "language": {
                 "name": "zh-hans",
                 "url": "https://pokeapi.co/api/v2/language/12/"
             },
-            "name": "\u6028\u5f71\u5a03\u5a03"
+            "name": "\u72ec\u89d2\u866b"
         },
         {
             "language": {
                 "name": "es-419",
                 "url": "https://pokeapi.co/api/v2/language/14/"
             },
-            "name": "Shuppet"
+            "name": "Weedle"
         }
     ],
-    "order": 381,
+    "order": 13,
     "pal_park_encounters": [
         {
             "area": {
                 "name": "forest",
                 "url": "https://pokeapi.co/api/v2/pal-park-area/1/"
             },
-            "base_score": 50,
-            "rate": 30
+            "base_score": 30,
+            "rate": 50
         }
     ],
     "pokedex_numbers": [
         {
-            "entry_number": 353,
+            "entry_number": 13,
             "pokedex": {
                 "name": "national",
                 "url": "https://pokeapi.co/api/v2/pokedex/1/"
             }
         },
         {
-            "entry_number": 146,
+            "entry_number": 13,
             "pokedex": {
-                "name": "hoenn",
-                "url": "https://pokeapi.co/api/v2/pokedex/4/"
+                "name": "kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/2/"
             }
         },
         {
-            "entry_number": 210,
+            "entry_number": 27,
             "pokedex": {
-                "name": "updated-unova",
-                "url": "https://pokeapi.co/api/v2/pokedex/9/"
+                "name": "original-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/3/"
             }
         },
         {
-            "entry_number": 122,
+            "entry_number": 27,
             "pokedex": {
-                "name": "kalos-mountain",
-                "url": "https://pokeapi.co/api/v2/pokedex/14/"
+                "name": "updated-johto",
+                "url": "https://pokeapi.co/api/v2/pokedex/7/"
             }
         },
         {
-            "entry_number": 151,
+            "entry_number": 26,
             "pokedex": {
-                "name": "updated-hoenn",
-                "url": "https://pokeapi.co/api/v2/pokedex/15/"
+                "name": "kalos-central",
+                "url": "https://pokeapi.co/api/v2/pokedex/12/"
             }
         },
         {
-            "entry_number": 316,
+            "entry_number": 13,
             "pokedex": {
-                "name": "updated-alola",
-                "url": "https://pokeapi.co/api/v2/pokedex/21/"
+                "name": "letsgo-kanto",
+                "url": "https://pokeapi.co/api/v2/pokedex/26/"
             }
         },
         {
-            "entry_number": 137,
-            "pokedex": {
-                "name": "updated-ulaula",
-                "url": "https://pokeapi.co/api/v2/pokedex/24/"
-            }
-        },
-        {
-            "entry_number": 298,
-            "pokedex": {
-                "name": "paldea",
-                "url": "https://pokeapi.co/api/v2/pokedex/31/"
-            }
-        },
-        {
-            "entry_number": 111,
+            "entry_number": 18,
             "pokedex": {
                 "name": "lumiose-city",
                 "url": "https://pokeapi.co/api/v2/pokedex/34/"
@@ -1095,15 +1147,15 @@
         }
     ],
     "shape": {
-        "name": "ball",
-        "url": "https://pokeapi.co/api/v2/pokemon-shape/1/"
+        "name": "armor",
+        "url": "https://pokeapi.co/api/v2/pokemon-shape/14/"
     },
     "varieties": [
         {
             "is_default": true,
             "pokemon": {
-                "name": "shuppet",
-                "url": "https://pokeapi.co/api/v2/pokemon/353/"
+                "name": "weedle",
+                "url": "https://pokeapi.co/api/v2/pokemon/13/"
             }
         }
     ]
