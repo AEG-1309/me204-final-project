@@ -11,9 +11,17 @@ Has Pokemon experienced power creep over its 30 years of existence? If so, to wh
 
 ### Why does this question matter?
 
-Power creep is defined as "the strengthening of [a] game and its pieces over time possibly to the point where new pieces invalidate older ones" (citation). This occurs because designers of games want to keep them fun and exciting, because fun and exciting translates to more revenue (citation). However, too much power creep can leave a game unrecognizeable. One major example is Yu-Gi-Oh. Perform one search with the key word 'power creep yugioh' on Reddit and loads of posts from both Yu-Gi-Oh and non-Yu-Gi-Oh related subreddits will come up, some as recently as two months ago, but others as far back as five years ago (citation). With new cards coming into the meta all the time, players can potentially feel the need to keep purchasing new cards if they want to keep up, which may lead to their exit from the game (citation). 
+Power creep is defined as "the strengthening of [a] game and its pieces over time possibly to the point where new pieces invalidate older ones" (Magruder, 2022)[https://journals.sagepub.com/doi/full/10.1177/15554120211050812#bibr20-15554120211050812]. This occurs because designers of games want to keep them fun and exciting, because fun and exciting translates to more revenue (Magic the Gathering on new cards released, 2020)[https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21]. However, too much power creep can leave a game unrecognizeable. One major example is Yu-Gi-Oh. Perform one search with the key word 'power creep yugioh' on Reddit and loads of posts from both Yu-Gi-Oh and non-Yu-Gi-Oh related subreddits will come up, some as recently as two months ago, but others as far back as five years ago.
 
-Pokemon has experienced a lot of longevity as a franchise thus far, and with parents sharing their love of Pokemon with their kids, it seems as though it will continue far into the future (citation). But, if power creep is too high, that longevity may start to fade.
+![](assets/yugiohpowercreep1.png)
+
+![](assets/yugiohpowercreep2.png)
+
+![](assets/yugiohpowercreep3.png)
+
+ With new cards coming into the meta all the time, players can potentially feel the need to keep purchasing new cards if they want to keep up, which may lead to their exit from the game. (Reddit thread making such a claim)[https://www.reddit.com/r/yugioh/comments/1k9zzvg/power_creep/]
+
+Pokemon has experienced a lot of longevity as a franchise thus far, and with parents sharing their love of Pokemon with their kids, it seems as though it will continue far into the future (Amenabar, 2022)[https://www.washingtonpost.com/video-games/2022/08/10/pokemon-starter-parents-kids/]. But, if power creep is too high, that longevity may start to fade.
 
 ### How are you going to measure power creep?
 
@@ -69,7 +77,7 @@ Legendaries and Mythicals are in a power class of their own. If these two types 
 
 As mentioned earlier, less Pokemon, generally, are being added in new Generations. However, much like Legendaries and Mythicals, Pokemon over 500 BST are becoming more and more common after Generation 5, reaching its peak in the latest Generation where over 1/3 of Standard Pokemon have a BST over 500.
 
-500 BST has been chosen as a threshold for a multitude of reasons. For one, it is around halfway between the Generation 1 average BST and the 600 BST threshold often used for Mythicals and Legendaries. If Generation 1 is our benchmark to compare everything else to, then it makes sense to derive a 'Powerful Pokemon' threshold from Generation 1. Additionally, after some research, you start to get into the upper-BST tiers of each type of Pokemon (excluding Legendaries and Mythicals) after the 500 BST mark (source). Therefore, 500 BST is a good threshold for what constitutes a more powerful Standard Pokemon. 
+500 BST has been chosen as a threshold for a multitude of reasons. For one, it is around halfway between the Generation 1 average BST and the 600 BST threshold often used for Mythicals and Legendaries. If Generation 1 is our benchmark to compare everything else to, then it makes sense to derive a 'Powerful Pokemon' threshold from Generation 1. Additionally, after some research, you start to get into the upper-BST tiers of each type of Pokemon (excluding Legendaries and Mythicals) after the 500 BST mark (Pokemon Database Forum)[https://pokemondb.net/pokebase/355610/what-pokemon-have-the-best-stat-totals-of-each-type]. Therefore, 500 BST is a good threshold for what constitutes a more powerful Standard Pokemon. 
 
 For similar reasons as stated above, with more powerful Pokemon being added more frequently in more recent Generations, older, weaker Pokemon are being disincentivized from use in favor of these newer Pokemon. And, with less Pokemon being added in newer Generations, more powerful Pokemon means that less weaker Pokemon are being added, which is pumping up the overall average BST of each Generation (as seen in the graph above.) If there was no power creep, then the proportion of Pokemon over 500 BST would have stayed relatively the same as Generation 1 as in Generation 9. But, considering over 1/3 of Generation 9's Pokemon are over 500 BST compared to Generation 1's under 1/5, that is not the case. This is evidence that Pokemon has experienced some power creep over time.
 

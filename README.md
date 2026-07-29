@@ -25,7 +25,11 @@ Supplementary Data Sources: No static data sources were used in the creation of 
 - ['Pokemon Database'](https://pokemondb.net/)
 - [Serebii](https://www.serebii.net/)
 Information about what power creep is:
-
+- [A 2022 paper by Daniel Sumner Magruder in the journal Games and Culture](https://journals.sagepub.com/doi/full/10.1177/15554120211050812#bibr20-15554120211050812)
+- [An Magic-the-Gathering Article about new cards from 2020](https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21)
+- [The Yu-Gi-Oh Subreddit](https://www.reddit.com/r/yugioh/)
+    - More specific information can be found in the assets folder under docs, where I have included screenshots of Reddit threads that came up in a seach
+- [The kids who grew up on Pokemon are raising trainers of their own](https://www.washingtonpost.com/video-games/2022/08/10/pokemon-starter-parents-kids/)
 Information consulted when deciding a threshold as to what constitutes a 'powerful Pokemon' in terms of BST:
 - ['This post on the Smogon Forums, a competitive Pokemon-focused website'](https://www.smogon.com/forums/threads/the-pok%C3%A9mon-bst-power-hierarchy.3774319/)
 - ['This post on the GameFAQs Forums'](https://gamefaqs.gamespot.com/boards/696959-pokemon-x/67994675)
