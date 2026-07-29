@@ -17,4 +17,6 @@ Pokemon has experienced a lot of longevity as a franchise thus far, and with par
 
 ### How is power creep measured?
 
+Pokemon is a complex game.
+
 
