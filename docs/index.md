@@ -15,9 +15,11 @@ Power creep is defined as "the strengthening of [a] game and its pieces over tim
 
 Pokemon has experienced a lot of longevity as a franchise thus far, and with parents sharing their love of Pokemon with their kids, it seems as though it will continue far into the future (citation). But, if power creep is too high, that longevity may start to fade.
 
-### How is power creep measured?
+### How will I measure power creep?
 
-Pokemon is a complex game.
+Pokemon is a complex, ever-growing game. With each new generation we get new abilities, new moves, updates to existing mechanics, brand-new gimmicks, tweaks to the Pokemon themselves, etc. etc. With so many moving parts, there are many different avenues through which to measure power creep. The avenue I am going to be choosing, however, is base stat totals (BSTs), which is a measure of the raw potential of a Pokemon. In practice, a Pokemon's stats are affected by many different factors in game, factors that are impossible to turn off to isolate the pure effect of stats. In theory, however, the higher a Pokemon's stat are, the more powerful they are, so it is a good baseline measure of the overall power level in Pokemon.
+
+Additionally, because 
 
 ![](assets/bst_over_time.png)
 
