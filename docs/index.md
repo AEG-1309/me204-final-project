@@ -19,6 +19,6 @@ Pokemon has experienced a lot of longevity as a franchise thus far, and with par
 
 Pokemon is a complex game.
 
-How BST has changed over time (assets/bst_over_time.png)
+[How BST has changed over time](assets/bst_over_time.png)
 
 
