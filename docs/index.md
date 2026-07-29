@@ -15,4 +15,6 @@ Power creep is defined as "the strengthening of [a] game and its pieces over tim
 
 Pokemon has experienced a lot of longevity as a franchise thus far, and with parents sharing their love of Pokemon with their kids, it seems as though it will continue far into the future (citation). But, if power creep is too high, that longevity may start to fade.
 
+### How is power creep measured?
+
 
