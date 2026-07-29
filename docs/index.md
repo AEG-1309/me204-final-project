@@ -54,6 +54,8 @@ Legendaries and Mythicals, on the other hand, tell a different story. Legendarie
 
 ### Legendaries and Mythicals have been getting more common with each generation
 
+![](assets/leg_myth_prop.png)
+
 The Generation that had the most Pokemon added to it was Generation 5, at 156. After Generation 5, and with the exception of Generation 9, less than 100 Pokemon have been added with each Generation, and even when over 100 Pokemon are added in a Generation, it doesn't quite reach the height of Generations 1 and 5. Somne of the new Pokemon added in Generations 7 and 8 were regional variants, which were not included in this analysis, which can partially explain the low addition numbers. 
 
 Despite less Pokemon being added, generally, in newer Generations, more and more of the new Pokemon added are Legendary and Mythical Pokemon. The proportion does not increase cleanly over the Generations, much like the increase of average BST over each Generation, but it is still noticeably higher in later Generations than it was in Generation 1. The proportion of Legendaries has increased noticeably, reaching its peak in Generation 7 with 1/8th of the introduced Pokemon being Legendaries. The proportion of Mythicals has returned to around Generation 1 levels in Generations 8 and 9, but Generations 3 through 7 have had increased proportions of Mythicals compared to Generation 1.
@@ -63,6 +65,7 @@ Legendaries and Mythicals are in a power class of their own. If these two types 
 
 ### There is a higher proportion of Standard Pokemon over 500 BST in newer Generations than in older Generations
 
+![](prop_500.png)
 
 As mentioned earlier, less Pokemon, generally, are being added in new Generations. However, much like Legendaries and Mythicals, Pokemon over 500 BST are becoming more and more common after Generation 5, reaching its peak in the latest Generation where over 1/3 of Standard Pokemon have a BST over 500.
 
