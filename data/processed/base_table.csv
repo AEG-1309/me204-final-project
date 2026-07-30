@@ -1,4 +1,4 @@
-pokemon_name,id,base_stat,gen_num,classification
+pokemon_name,id,BST,gen_num,classification
 bulbasaur,1,318,Gen 1,standard
 charmander,4,309,Gen 1,standard
 squirtle,7,314,Gen 1,standard
