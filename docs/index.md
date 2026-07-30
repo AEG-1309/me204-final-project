@@ -73,7 +73,7 @@ Legendaries and Mythicals are in a power class of their own. If these two types 
 
 ### There is a higher proportion of Standard Pokemon over 500 BST in newer Generations than in older Generations
 
-![](prop_500.png)
+![](assets/prop_500.png)
 
 As mentioned earlier, less Pokemon, generally, are being added in new Generations. However, much like Legendaries and Mythicals, Pokemon over 500 BST are becoming more and more common after Generation 5, reaching its peak in the latest Generation where over 1/3 of Standard Pokemon have a BST over 500.
 
